@@ -1,0 +1,3132 @@
+{
+  "source": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+  "fetchedAt": "2026-08-15",
+  "plugins": [
+    {
+      "name": "Accountant",
+      "author": "Ottermandias",
+      "description": "Keep track of retainer, airship, submersible, aetherial wheel and crop timers as well as several miscallaneous tasks of multiple characters.",
+      "href": "https://github.com/Ottermandias/Accountant",
+      "descriptionJa": "複数のキャラクターのリテイナー、飛空艇、潜航艇、エーテリアル・ホイール、作物のタイマーやいくつかの雑多なタスクを追跡します。",
+      "downloadCount": 10319,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Ottermandias/Accountant",
+        "pushedAt": "2026-05-08T00:55:21Z",
+        "archived": false,
+        "repoDescription": "Timer Management.",
+        "summary": {
+          "purposeJa": "見出し: 'Accounting'",
+          "featuresJa": [
+            "READMEに明記なし"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "非公式プラグインは公式サポート外です。使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Adventurer in Need",
+      "author": "Caraxi",
+      "description": "Recieve a notification when a duty roulette is in need of a role. /pbonus to setup",
+      "href": "https://github.com/Caraxi/AdventurerInNeed",
+      "descriptionJa": "デューティルーレットがロールを必要としているときに通知を受け取ります。設定するには /pbonus を使います。",
+      "downloadCount": 14029,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Caraxi/AdventurerInNeed",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "AutoVisor",
+      "author": "Ottermandias",
+      "description": "Automatically change visor, headslot hiding, and weapon hiding status for different player states, as well as default CPose-stances per job.",
+      "href": "https://github.com/Ottermandias/AutoVisor",
+      "descriptionJa": "プレイヤーの状態に応じて、バイザー、頭スロットの非表示設定、武器の非表示設定、およびジョブごとのデフォルトCPoseスタンスを自動で切り替えます。",
+      "downloadCount": 1093,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Ottermandias/AutoVisor",
+        "pushedAt": "2026-05-03T12:51:04Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "DalamudベースのFFXIVアドオンで、プレイヤーの状態に応じてvisor、hat、visor、cposeの状態を自動で変更する。",
+          "featuresJa": [
+            "プレイヤーの状態に応じてvisor、hat、visor、cposeの状態を自動で変更する。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamudベースのアドオン（READMEに明記あり）",
+            "インストール方法: https://raw.githubusercontent.com/Ottermandias/AutoVisor/master/repo.json をカスタムリポジトリにコピーしてインストールする（READMEに明記あり）"
+          ],
+          "cautionsJa": [
+            "非公式プラグインです。使用は自己責任でお願いします。READMEに自動化・戦闘補助・外部通信・権限に関する記載はありません。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Better Party Finder",
+      "author": "ascclemens",
+      "description": "Filter the party finder better. All vanilla filtering is available, plus: - Create filter presets to easily switch between - Whitelist/blacklist specific duties and categories - Add character names to hide PFs from - Remove PFs above maximum item level - Filter on item level range - Filter on multiple jobs and slots (ex. MCH + GNB available)",
+      "href": "",
+      "descriptionJa": "Party Finderをより細かくフィルタリングできます。標準のフィルタはすべて利用可能で、さらにフィルタプリセットを作成して簡単に切り替えられること、特定のdutyやカテゴリをホワイトリスト／ブラックリストに登録できること、特定のキャラクター名を追加してそのキャラクターからのPFを非表示にできること、最大アイテムレベルを超えるPFを除外すること、アイテムレベルの範囲でフィルタリングできること、複数のジョブや枠でフィルタリングできること（例：MCH + GNB）があります。",
+      "downloadCount": 11091,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Browser Host",
+      "author": "ackwell",
+      "description": "Dalamud plugin for in-game browser rendering. Think OverlayPlugin, but it’s in the game itself. Use the settings button below or the ‘/bh config’ command to configure.",
+      "href": "https://github.com/ackwell/BrowserHost",
+      "descriptionJa": "インゲームでブラウザをレンダリングするためのDalamudプラグインです。OverlayPluginを想像してくださいが、本プラグインはゲーム内で直接動作します。設定は下の設定ボタンまたは '/bh config' コマンドで行ってください。",
+      "downloadCount": 11479,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/ackwell/BrowserHost",
+        "pushedAt": "2023-10-05T13:26:03Z",
+        "archived": false,
+        "repoDescription": "Dalamud plugin for in-game browser rendering. Think OverlayPlugin, but it's in the game itself.",
+        "summary": {
+          "purposeJa": "Dalamudプラグインとして、ゲーム内でブラウザをレンダリングすることを目的とする。OverlayPluginに似ているが、ゲーム内で動作する点が特徴。",
+          "featuresJa": [
+            "ゲーム内でウェブコンテンツをレンダリングして表示するブラウザ機能を提供する。",
+            "OverlayPluginのような外部オーバーレイではなく、ゲーム内で表示されることを意図している（README文言に基づく比較）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに特定の注意は記載されていないため、非公式プラグインとして自己責任で使用してください。ゲームの利用規約、セキュリティや外部通信に関する影響に注意が必要です。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Burnt Toast",
+      "author": "ascclemens",
+      "description": "Hides toast notifications you don’t want to see.",
+      "href": "https://git.sr.ht/~jkcclemens/BurntToast",
+      "descriptionJa": "見たくないトースト通知を非表示にします。",
+      "downloadCount": 5115,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "ChatAlerts",
+      "author": "Caraxi & Ottermandias",
+      "description": "No description is provided in the official listing.",
+      "href": "https://github.com/Ottermandias/ChatAlerts",
+      "descriptionJa": "公式一覧に説明は掲載されていません。機能・設定・対応状況は開発元ページで確認してください。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Ottermandias/ChatAlerts",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Chat Bubbles",
+      "author": "Haplo064",
+      "description": "Using native chat bubble display, see who is talking about what in a more natural fashion.",
+      "href": "https://github.com/Haplo064/ChatBubbles",
+      "descriptionJa": "ネイティブのチャットバブル表示を使用して、誰が何について話しているのかをより自然に把握できます。",
+      "downloadCount": 49866,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Haplo064/ChatBubbles",
+        "pushedAt": "2025-07-25T11:47:48Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "Dalamudライブラリ向けのXIVLauncherで使用するFinal Fantasy XIV用プラグイン。プレイヤーの上に小さなチャットバブルを追加し、いくつかのカスタマイズオプションを提供してゲーム体験を向上させることを目的とする。現行バージョンは2.18.0。",
+          "featuresJa": [
+            "プレイヤーが各種チャットチャンネルを使用している際に、そのプレイヤーの上に小さなチャットバブルを表示する。",
+            "表示に関するいくつかのカスタマイズオプションを備えている。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamudライブラリ",
+            "XIVLauncher"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため、使用は自己責任で行ってください。READMEに自動化・戦闘補助・外部通信・権限に関する具体的な記載はありません。",
+            "READMEには「Final version of Chat Bubbles before the official integration by Square Enix (unrelated to this project).」と記載されています。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "ChatCoordinates",
+      "author": "kij",
+      "description": "Places flag marker on map from coordinates in chat. Opens map with given coordinates for current or given zone. See “/coord” for configuration and usage info.",
+      "href": "https://github.com/kissorjeyabalan/dalamud-chatcoordinates",
+      "descriptionJa": "ChatCoordinates はチャット内の座標からマップ上に旗マーカーを配置します。現在のゾーンまたは指定したゾーンの座標で地図を開きます。設定および使用方法の詳細は /coord を参照してください。",
+      "downloadCount": 15970,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/kissorjeyabalan/dalamud-chatcoordinates",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "ChatTyper",
+      "author": "Franz",
+      "description": "Prefixes all chatbox messages with their chat type number and name, if known.",
+      "href": "",
+      "descriptionJa": "チャットボックスのすべてのメッセージの先頭に、チャットタイプの番号と、判明している場合はその名前を付加します。",
+      "downloadCount": 109,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Compass",
+      "author": "Chivalrik",
+      "description": "Check-out the repository for steps on how to report missing/wrong filter and hiding options. Have a look at the FAQ tab in the config window after install for common caveats.",
+      "href": "https://github.com/fitzchivalrik/compass",
+      "descriptionJa": "欠落または誤ったフィルタや非表示オプションを報告する手順についてはリポジトリを確認してください。インストール後は設定ウィンドウのFAQタブを参照して、よくある注意点を確認してください。",
+      "downloadCount": 1496,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/fitzchivalrik/compass",
+        "pushedAt": "2026-05-01T23:22:14Z",
+        "archived": false,
+        "repoDescription": "A Final Fantasy XIV Dalamud plugin. Shows a monodimensional compass to augment/replace the minimap.",
+        "summary": {
+          "purposeJa": "Final Fantasy XIV の Dalamud プラグイン。ミニマップを補完または置き換える一次元のコンパスを表示する。",
+          "featuresJa": [
+            "ミニマップを補完または置き換える一次元のコンパスを画面に表示する。",
+            "特定のウィンドウ時にコンパスを非表示にする機能がある（ただし全ての望ましいウィンドウは未実装）。",
+            "特定のアイコンに対するフィルタリングや特別な扱いを行う機能がある（ただしすべての望ましいフィルタ／アイコンの処理は未実装）。",
+            "アイコンの iconid を取得する手順（AddonInspector を /xldata ai で開き、Map のノードからテクスチャパスを確認する）がREADMEに記載されている。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/xldata ai で AddonInspector を開く（README に記載）"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "非公式プラグインです。使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Discord Chat Bridge",
+      "author": "goat, modded by Franz",
+      "description": "This plugin allows you to receive your chat messages via Discord.",
+      "href": "https://github.com/reiichi001/Dalamud.DiscordBridge",
+      "descriptionJa": "このプラグインにより、チャットのメッセージをDiscord経由で受信できます。",
+      "downloadCount": 14327,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/reiichi001/Dalamud.DiscordBridge",
+        "pushedAt": "2026-05-01T01:40:09Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "FFXIV内のチャットを指定した1つ以上のDiscordチャンネルに中継するプラグイン。",
+          "featuresJa": [
+            "FFXIV内のチャットを指定した1つ以上のDiscordチャンネルへ中継する。",
+            "同じチャットメッセージを複数のDiscordチャンネルへ送信できる設定がある。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに明記されている通り、FFXIV内のチャットをDiscordチャンネルへ中継する（外部通信が発生する）。",
+            "DiscordからFFXIVへは中継しない（READMEに明記）。READMEではその理由について「Discordが持つ多くの機能がFFXIVのチャットに対応しないため、いくつか問題がある」と記載されている。",
+            "セットアップガイド: https://github.com/reiichi001/Dalamud.DiscordBridge/wiki/Setup-Guide （READMEに記載）"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Fancy Loading Screens",
+      "author": "goat",
+      "description": "This plugin shows the destination zone’s concept art while loading.",
+      "href": "",
+      "descriptionJa": "このプラグインは、読み込み中に目的地のゾーンのコンセプトアートを表示します。",
+      "downloadCount": 31848,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Discord Rich Presence",
+      "author": "goat",
+      "description": "This plugin allows you to show your zone, job, name and world in your Discord status.",
+      "href": "",
+      "descriptionJa": "このプラグインを使うと、Discordのステータスにゾーン、ジョブ、キャラクター名、ワールドを表示できます。",
+      "downloadCount": 27918,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Damage Info",
+      "author": "perchbird",
+      "description": "Configurable options for in-game fly text color based on damage type, with additional settings for damage source and fly text decluttering options.",
+      "href": "https://github.com/lmcintyre/DamageInfoPlugin",
+      "descriptionJa": "ダメージの種類に応じてゲーム内フライテキストの色を設定するオプションに加え、ダメージの発生源に関する追加設定やフライテキストの整理（デクラッタリング）オプションを備えています。",
+      "downloadCount": 40866,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/lmcintyre/DamageInfoPlugin",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "DeepDungeonDex",
+      "author": "Strati",
+      "description": "A live bestiary for Deep Dungeon. Shows target mob aggro type, a subjective threat level, status vulnerabilities, and a general overview of notable mechanics. Threat level is meant to be taken with a grain of salt, is aimed towards solo players, and assumes a general familiarity with deep dungeon mechanics and the class being played. Information is accurate to the best of my knowledge based on crowdsourced information, but I could use your help! Please open an issue on the GitHub if you’d like to correct inaccurate or untested data.",
+      "href": "https://github.com/Strati/DeepDungeonDex",
+      "descriptionJa": "Deep Dungeon向けのリアルタイム図鑑です。対象モブのアグロタイプ、主観的な脅威レベル、状態異常への弱点、および注目すべきメカニクスの概要を表示します。脅威レベルはあくまで参考で、ソロプレイヤー向けを意図しており、Deep Dungeonのメカニクスとプレイ中のクラスに対する基本的な理解があることを前提としています。情報はクラウドソースのデータに基づき私の知る限り正確ですが、ご協力いただけると助かります。不正確または未検証のデータを修正したい場合は、GitHubでIssueを作成してください。",
+      "downloadCount": 21096,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Strati/DeepDungeonDex",
+        "pushedAt": "2024-07-11T17:38:55Z",
+        "archived": true,
+        "repoDescription": "A Dalamud plugin to display live bestiary data and advice during Deep Dungeon runs in FFXIV.",
+        "summary": {
+          "purposeJa": "XIVLauncher向けのプラグインで、Final Fantasy XIVのDeep Dungeons内でターゲットした敵のライブデータを表示すること。",
+          "featuresJa": [
+            "ターゲットしたモンスターのライブデータを表示する（Deep Dungeons専用）",
+            "データはプラグイン内にハードコードされており、複数の情報源から収集・精査されている（作者自身のテストおよびMaygiのPalace of the Dead／Heaven-on-Highリソースが主要な出典としてREADMEに記載）",
+            "データの誤りや欠落の報告、追加・修正の提案はGitHub issueで行える（READMEに記載）"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher（FFXIVQuickLauncher）"
+          ],
+          "cautionsJa": [
+            "このリポジトリはこの場所ではもはや保守されておらず、新しい場所がREADMEに記載されている: https://github.com/NotNite/OfDungeonsDeep",
+            "プラグインは作業途中であり、多くのデータ（特にPalace of the Dead関連）は誤りまたは未検証であるとREADMEに明記されている",
+            "問題やデータの追加・修正はREADMEに沿ってGitHub issueで報告すること（READMEに記載）",
+            "非公式プラグインのため、表示されるデータに誤りが含まれる可能性がある点に注意すること"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "EasyEyes",
+      "author": "ocealot",
+      "description": "A plugin which can hide any VFX. Icon by PAPACHIN",
+      "href": "https://github.com/0ceal0t/EasyEyes",
+      "descriptionJa": "あらゆるVFXを非表示にできるプラグイン。アイコンはPAPACHINによる。",
+      "downloadCount": 4258,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/0ceal0t/EasyEyes",
+        "pushedAt": "2026-05-03T00:33:50Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "XIV Quick Launcher用のプラグインで、眩しいまたは気を散らすVFXを非表示にする機能を提供する。",
+          "featuresJa": [
+            "画面上の眩しい・気を散らすVFXを非表示にする",
+            "BlacklistタブにVFXパスを追加してそのVFXを非表示にできる（パスを手動で追加）",
+            "Importボタンでプリセットをインポートしてブラックリストに追加できる",
+            "Recent VFXsタブでVFXを選択し「Add To Blacklist」をクリックしてブラックリストに追加できる"
+          ],
+          "settingsJa": [
+            "Blacklistタブ（VFXパスを手動で追加）",
+            "Importボタン（プリセットをインポート）",
+            "Recent VFXsタブでの選択と「Add To Blacklist」操作",
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/easy で開く"
+          ],
+          "dependenciesJa": [
+            "XIV Quick Launcher（このプラグインを動作させるために必要）"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため、導入・使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Echoglossian",
+      "author": "Dante Souza e Souza - aka lokinmodar",
+      "description": "Realtime game text translator",
+      "href": "https://github.com/lokinmodar/Echoglossian",
+      "descriptionJa": "ゲーム内テキストをリアルタイムで翻訳",
+      "downloadCount": 1544,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/lokinmodar/Echoglossian",
+        "pushedAt": "2026-08-10T23:56:04Z",
+        "archived": false,
+        "repoDescription": "FFXIV Dialogue text translator",
+        "summary": {
+          "purposeJa": "リアルタイムでゲーム内テキストを翻訳するプラグイン",
+          "featuresJa": [
+            "リアルタイムでゲーム内テキストを翻訳する（“A realtime game text translator”）",
+            "翻訳対象となる“translation surfaces”（何が翻訳可能か）は docs/translation-surface-support-matrix.md で一覧を確認できる",
+            "対話系（dialogue-family）およびトースト系（toast-family）のランタイムフローに関するドキュメントがあり、Talk, BattleTalk, TalkSubtitle, MiniTalk, TextGimmickHint およびトースト経路に関する説明が提供されている",
+            "設定ウィンドウで翻訳の有効化や各種オプションを設定できる（Usage の記述）",
+            "プラグイン設定ウィンドウとプラグインデータベースマネージャをチャットコマンドで開ける（ユーザー操作でアクセス可能）",
+            "ローカル検証用のスクリプトと、DalaMock を用いたローカルモックランナーが提供されている（開発および検証用）"
+          ],
+          "settingsJa": [
+            "設定ウィンドウで希望する翻訳を有効化し、各種オプションを設定する（README: \"Enable the desired translations and configure the various options through the Configuration Window.\"）"
+          ],
+          "commandsJa": [
+            "/eglo : プラグイン設定ウィンドウを開く",
+            "/eglodbmanager : プラグインデータベースマネージャウィンドウを開く"
+          ],
+          "dependenciesJa": [
+            "FFXIVQuickLauncher（インストールは必ずFFXIVQuickLauncherを通じて行うようREADMEに明記）",
+            "Dalamud（READMEで言及あり）",
+            "dotnet（ローカルDalaMockランナー起動に dotnet run コマンドを使用）",
+            "DalaMock（ローカルモックランナー、README に Echoglossian.Mock として記載）",
+            "ローカルの FFXIV ゲームデータ（sqpack）または EXD_DATA_DIR / %AppData%\\XIVLauncher\\launcherConfigV3.json 等で参照可能なゲームデータ（ローカル検証に必要と明記）"
+          ],
+          "cautionsJa": [
+            "README に自動化・戦闘補助・外部通信・権限に関する具体的な注意は明記されていません。非公式プラグインの利用は自己責任で行ってください。",
+            "公式リポジトリ向けの作業については、基本的なオートコンプリートを超えるAI使用はPR説明で開示し、AI生成アセットも開示するべきである旨がREADMEに記載されています（Official Repo AI Disclosure）。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "EnemyListDebuffs",
+      "author": "aers",
+      "description": "Displays your debuffs on the enemy list.",
+      "href": "https://github.com/aers/EnemyListDebuffs",
+      "descriptionJa": "敵リストに自分のデバフを表示します。",
+      "downloadCount": 2377,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/aers/EnemyListDebuffs",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "EngageTimer",
+      "author": "Xorus",
+      "description": "Finally, display all the numbers when starting a countdown! Features : - Big countdown that displays all the numbers - Customizable big-number textures (default, yellow, WoW style or custom files) - Floating window with combat timer and countdown - OBS browser-source compatible page Why the OBS thing ? Well, it can be useful if you want a big stylized stopwatch in your recordings. See repository for more info. Feel free so send me feedback, bugs and potential improvements!",
+      "href": "https://github.com/xorus/EngageTimer",
+      "descriptionJa": "ついにカウントダウン開始時に全ての数字を表示します！ 機能：大きなカウントダウンで全ての数字を表示する、カスタマイズ可能な大きな数字用テクスチャ（default、yellow、WoWスタイル、またはカスタムファイル）、戦闘タイマーとカウントダウンを表示するフローティングウィンドウ、OBSのブラウザソースに対応したページがあります。なぜOBS対応かというと、録画に大きくスタイライズされたストップウォッチを表示したいときに役立つためです。詳細はリポジトリを参照してください。フィードバック、バグ、改善案があればお気軽にお寄せください！",
+      "downloadCount": 4159,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/xorus/EngageTimer",
+        "pushedAt": "2026-06-08T13:38:06Z",
+        "archived": false,
+        "repoDescription": "Stopwatch / Countdown plugin for Dalamud",
+        "summary": {
+          "purposeJa": "カウントダウン開始時に全ての数字を表示する大きなカウントダウン表示と、画面上に置ける戦闘タイマー（ストップウォッチ）およびOBS用のブラウザ出力を提供するDalamudプラグイン。大きな数字のテクスチャをカスタム可能で、ウェブサーバー経由でタイマー情報を外部デバイスやOBSに表示できる。",
+          "featuresJa": [
+            "大きなカウントダウンで欠けている番号（全ての数字）を表示する",
+            "大きな数字用テクスチャをカスタマイズ可能（同梱スタイル: default、yellow、WoW style、またはカスタムファイル）",
+            "戦闘タイマーとカウントダウンを表示する浮動ウィンドウ（画面上の任意の場所に配置可能なタイマー）",
+            "OBSのブラウザソース互換のページを提供し、別デバイスからタイマーを閲覧可能",
+            "カウントダウンに“ticking”音を有効化できるオプション",
+            "カスタムPNG画像（0.png〜9.png）を使った独自の数字テクスチャを指定可能（幅は任意、上寄せで同高さ推奨）",
+            "ストップウォッチは戦闘タイマーとして動作し、任意で10分の1秒表示を有効にできる",
+            "プラグインでウェブサーバーを有効化して現在のタイマー情報を提供する（OBS等で利用）",
+            "OBSのブラウザソース側でCustom CSSを指定してフォント等を変更できる（例としてbody{font-family:\"Comic Sans MS\";}の記載あり）"
+          ],
+          "settingsJa": [
+            "Big CountdownのStyle設定で「Custom」を選択しカスタムテクスチャフォルダを指定可能（READMEに明記）",
+            "カスタムテクスチャの要件: PNG、ファイル名は0.png〜9.png、幅は任意、画像は上寄せ（READMEに明記）",
+            "\"ticking\"（カウントダウンの小刻み音）を有効化するオプション（READMEに明記）",
+            "例で言及されている「hide original timer」オプション（READMEで例示あり）",
+            "ストップウォッチのオプションで10分の1秒表示を有効化できる（READMEに明記）",
+            "ウェブサーバーを有効化するオプション（OBS用のページを提供する機能：READMEに明記）"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud（FFXIVプラグインプラットフォームとして明記）",
+            "NAudio（サウンド再生のアイデアに関して言及あり）"
+          ],
+          "cautionsJa": [
+            "READMEに明記: プラグインはウェブサーバーを有効化でき、別デバイスからタイマー情報のページにアクセス可能と記載あり",
+            "READMEに自動化・戦闘補助・権限に関する明示的な注意書きはなし。非公式プラグインであるため利用は自己責任で行ってください（簡潔な注意）"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Expanded Search Info",
+      "author": "ascclemens",
+      "description": "Displays extra information pulled from search info when examining. Support for: - Any plain text URL - Pastebin.com - carrd.co/crd.co - F-List - Refsheet Simply examine someone with a search info containing pointers to one of these locations and the plugin will display information automatically. Icon: expand by Gregor Cresnar from the Noun Project",
+      "href": "https://git.sr.ht/~jkcclemens/ExpandedSearchInfo",
+      "descriptionJa": "調べる際に、検索情報から取得した追加情報を表示します。対応しているのは任意のプレーンテキストURL、Pastebin.com、carrd.co/crd.co、F-List、Refsheetです。これらのいずれかへの参照を含む検索情報を持つ相手を調べるだけで、プラグインが自動的に情報を表示します。アイコン: expand by Gregor Cresnar from the Noun Project",
+      "downloadCount": 8727,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "ezFauxHollows",
+      "author": "daemitus",
+      "description": "This plugin highlights tiles in Faux Hollows that represent the best potential action you can take.",
+      "href": "https://github.com/daemitus/FauxHollowsSolver",
+      "descriptionJa": "このプラグインは、Faux Hollows内のタイルのうち、あなたが取ることのできる最善の行動を表すものをハイライトします。",
+      "downloadCount": 14581,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/daemitus/FauxHollowsSolver",
+        "pushedAt": "2026-07-28T16:59:50Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "FauxHollows（Faux Hollows）での試行中に、最適な選択肢をハイライトして示すDalamudプラグイン。",
+          "featuresJa": [
+            "Faux Hollowsの試行で最適と思われる選択肢を画面上でハイライト表示する。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載なし。非公式プラグインのため使用は自己責任で。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "FC Name Color",
+      "author": "CFG",
+      "description": "Color your FC’s tag or the entire nameplate if they are in your FC. Use /fcnc to open up the config.",
+      "href": "https://github.com/WesselKuipers/FCNameColor",
+      "descriptionJa": "FCのタグ、または同じFCに所属している場合はネームプレート全体を着色します。設定は /fcnc で開きます。",
+      "downloadCount": 19394,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/WesselKuipers/FCNameColor",
+        "pushedAt": "2026-05-09T00:36:30Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "XIVLauncher用のプラグインで、FCのメンバーのキャラクター名プレートの色を変更できる。",
+          "featuresJa": [
+            "FCメンバーのキャラクター名プレートの色を変更する。",
+            "設定ウィンドウから各種設定を調整できる（READMEに設定画面の画像あり）。",
+            "色変更の適用例を示すスクリーンショットがREADMEに含まれる。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/fcnc を入力して設定ウィンドウを開く。"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher（FFXIVQuickLauncher）"
+          ],
+          "cautionsJa": [
+            "プレイヤーの照合はLodestoneデータに基づいて行われるため、FCタグが一意でない場合やプレイヤーの脱退・加入・名前変更があると100%正確である保証はない。",
+            "名プレートは色変更や名プレート着色の有効/無効化を行っても即時に更新されない。これは名プレートを上書きする方法の技術的制限による。",
+            "自分のFC以外のFCはLodestoneのレート制限のため即時更新されない。追加のFCは起動時に30秒に1回の頻度で更新されるか、直近の更新が2時間未満の場合は更新されない。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "FlashOnTell",
+      "author": "Franz",
+      "description": "Flash FFXIV’s program on the taskbar when you receive a /tell. This plugin has no configurable settings at this time.",
+      "href": "",
+      "descriptionJa": "/tell を受け取ったときにタスクバー上の FFXIV のプログラムを点滅させます。このプラグインは現時点で設定可能なオプションはありません。",
+      "downloadCount": 1542,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "FlyTextFilter",
+      "author": "Aireil",
+      "description": "Allows the filtering of the different fly text types.",
+      "href": "https://github.com/Aireil/FlyTextFilter",
+      "descriptionJa": "各種フライテキストをフィルタリングできます。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Aireil/FlyTextFilter",
+        "pushedAt": "2026-07-14T20:07:02Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "フライテキスト（およびポップアップテキスト）を複数の基準でフィルタし、その表示位置やスケーリングを調整するプラグイン。",
+          "featuresJa": [
+            "各フライテキストのタイプごとにプレビュー可能（目のボタン）。各タイプは最大4つのスタイル（フライテキスト2種・ポップアップテキスト2種）を持つ。",
+            "ソースをYou／Party／Othersの3グループで分類し、各ソース内のターゲット（列）との組み合わせでフィルタを設定できる（表形式、行ごとに編集ボタンあり）。",
+            "単語単位のテキストブラックリストにより、指定した単語を含むフライテキストをフィルタする（例：'Embrace' を追加すると特定のEmbraceフライテキストがフィルタされる）。",
+            "ログタブで生成されたフライテキストを保存して識別・再生でき、再生してその設定を編集できる。",
+            "ログ設定は設計上毎回再起動時にオフになる（無効化される）。",
+            "フライテキストの種類（自動攻撃、ステータス効果、その他のダメージ）に基づきダメージタイプアイコンを非表示にできる。",
+            "フライテキストの表示位置を調整し、フライテキストとポップアップテキストそれぞれのスケーリングを変更できる。",
+            "Testボタンでフライテキストとポップアップテキストの区別が不明な場合にスケーリングを確認できる。"
+          ],
+          "settingsJa": [
+            "タイプごとのプレビュー（目のボタン）設定",
+            "ソース（You／Party／Others）とターゲット列によるフィルタ設定（表／行の編集ボタン）",
+            "テキストブラックリスト（単語単位）",
+            "ログタブでのログ有効化／無効化（ログは再起動時にオフになる）",
+            "ダメージ種類（自動攻撃・ステータス効果・その他）に基づくダメージアイコン非表示設定",
+            "フライテキスト位置の調整設定",
+            "フライ／ポップアップテキストのスケーリング設定",
+            "Testボタンによる表示確認"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEには自動化・戦闘補助・外部通信・権限に関する記載はありません。",
+            "非公式プラグインの導入・使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "FPS Plugin",
+      "author": "Caraxi",
+      "description": "Display game FPS. It really is that simple.",
+      "href": "https://github.com/Caraxi/FPSPlugin",
+      "descriptionJa": "ゲーム内のFPSを表示します。本当にそれだけです。",
+      "downloadCount": 39305,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Caraxi/FPSPlugin",
+        "pushedAt": "2026-05-01T00:32:19Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "FPS（フレームレート）を表示するDalamudプラグイン",
+          "featuresJa": [
+            "画面にFPS（フレームレート）を表示する"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため利用は自己責任で行ってください。READMEに自動化・戦闘補助・外部通信・権限に関する記載はありません。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "GatherBuddy",
+      "author": "Ottermandias",
+      "description": "Adds commands to simplify gathering by finding nodes and fish and their locations via item name and a UI to keep track of special uptime and weather conditions.",
+      "href": "https://github.com/Ottermandias/GatherBuddy",
+      "descriptionJa": "GatherBuddyは、アイテム名でノードや魚とその出現場所を検索するコマンドを追加し、特殊な出現時間や天候条件を管理するUIを提供して採集を簡素化します。",
+      "downloadCount": 35933,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Ottermandias/GatherBuddy",
+        "pushedAt": "2026-08-13T23:15:50Z",
+        "archived": false,
+        "repoDescription": "Dalamud-based FFXIV addon to simplify gathering.",
+        "summary": {
+          "purposeJa": "DalamudベースのFFXIVアドオンで、採集（gathering）を簡素化することを目的としています。",
+          "featuresJa": [
+            "ゲーム内の採集を簡素化する機能を提供します。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud（Dalamudベース）",
+            "Final Fantasy XIV（FFXIV）"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため、自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "GentleTouch",
+      "author": "Chivalrik",
+      "description": "You need to configure patterns and triggers before it will work, open the configuration window to do that. Currently supported triggers are: - Cooldowns - Near Aether Current",
+      "href": "https://github.com/fitzchivalrik/gentletouch",
+      "descriptionJa": "動作させるにはパターンとトリガーを設定する必要があります。設定ウィンドウを開いて行ってください。現在サポートされているトリガーは Cooldowns と Near Aether Current です。",
+      "downloadCount": 650,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/fitzchivalrik/gentletouch",
+        "pushedAt": "2024-07-14T20:59:23Z",
+        "archived": false,
+        "repoDescription": "A Final Fantasy XIV Quicklauncher (XIVLauncher) plugin. Allows one to create vibration patterns for the controller and specify triggers for them.",
+        "summary": {
+          "purposeJa": "Final Fantasy XIV用のXIVLauncher（Quicklauncher）プラグイン。コントローラーの振動パターンを作成し、それらに対するトリガーを指定できる。ライセンス: AGPLv3以降。",
+          "featuresJa": [
+            "コントローラーの振動パターンを作成できる。",
+            "振動パターンに対してトリガーを指定できる。",
+            "クールダウントリガーを追加し、クールダウンが安全に再発動可能になった際に振動パターンを発動できる。",
+            "戦闘外（out-of-combat）でエーテルカレントを振動で感知できる。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher（Quicklauncher）プラグインとして動作する（READMEに明記）"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載はない。非公式プラグインの使用は自己責任で行ってください。アカウント運用や公式規約への影響がないか注意が必要です。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Glamaholic",
+      "author": "ascclemens",
+      "description": "Create and save as many glamour plates as you want. Activate up to 15 of them at once at the Glamour Dresser. Supports exporting and importing plates for easy sharing.",
+      "href": "https://git.sr.ht/~jkcclemens/Glamaholic",
+      "descriptionJa": "好きなだけグラマープレートを作成して保存できます。Glamour Dresserで一度に最大15枚まで有効化できます。プレートのエクスポートとインポートに対応しており、簡単に共有できます。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Globetrotter",
+      "author": "ascclemens",
+      "description": "Automatically shows where treasure maps are located. Icon: Map by Adrien Coquet from the Noun Project",
+      "href": "https://git.sr.ht/~jkcclemens/Globetrotter",
+      "descriptionJa": "トレジャーマップの位置を自動的に表示します。アイコン: Map by Adrien Coquet from the Noun Project",
+      "downloadCount": 42791,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Good Memory",
+      "author": "ascclemens",
+      "description": "Adds an indicator in item tooltips to show whether you have acquired that item. This indicator is in the item’s description near the bottom and only appears for items that are unlockable, such as orchestrion rolls, minions, etc. Square Enix say this plugin is impossible! Icon: Server by Vectorstall from the Noun Project",
+      "href": "https://git.sr.ht/~jkcclemens/GoodMemory",
+      "descriptionJa": "Good Memory\nアイテムのツールチップに、そのアイテムを取得済みかどうかを示すインジケーターを追加します。このインジケーターはアイテム説明の下部付近に表示され、オーケストリオンロール、ミニオンなどのアンロック可能なアイテムにのみ現れます。Square Enixはこのプラグインは不可能だと言っています！ Icon: Server by Vectorstall from the Noun Project",
+      "downloadCount": 42859,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Harp Hero",
+      "author": "MgAl2O4",
+      "description": "Assist mode for bards who want to play music but don’t know how to. - does NOT play anything automatically - needs MIDI files to work - adapts MIDI tracks to fit in game limitations for you - you will be scored :O",
+      "href": "https://github.com/MgAl2O4/HarpHeroDalamud",
+      "descriptionJa": "演奏方法がわからないが音楽を演奏したい吟遊詩人向けのアシストモードです。自動で演奏は行いません。動作にはMIDIファイルが必要で、MIDIトラックをゲームの制約に合わせてあなたのために調整します。演奏は採点されます :O",
+      "downloadCount": 1819,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/MgAl2O4/HarpHeroDalamud",
+        "pushedAt": "2026-04-29T23:59:47Z",
+        "archived": false,
+        "repoDescription": "Bard performance assist plugin for Dalamud",
+        "summary": {
+          "purposeJa": "MIDIファイルに基づきバードの演奏を支援するDalamudプラグイン。画面上にいつ何を押すかを表示する機能を提供する（ただしプレイヤーの代わりに自動で演奏は行わないと明記されている）。",
+          "featuresJa": [
+            "画面上に何をいつ押すかを表示する（show what and when to press）",
+            "トレーニングモードを提供する（READMEに示されたデモGIFあり）",
+            "アシストモードを2種類提供：キー入力にフォーカスするモードと音符にフォーカスするモード",
+            "MIDIトラックをゲームの制限に合わせて変換する",
+            "ゲームのメトロノームと同期する"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "プラグインは「プレイヤーの代わりに演奏を行わない（do NOT play instead of player）」とREADMEで明記している。自動で演奏する機能は提供しないことに注意。",
+            "プログラムは起動時にこのリポジトリから自動更新を試みる（Program will attempt to auto update on startup from this repository）。ネットワーク接続や外部通信が行われる可能性がある。",
+            "MIDIファイル自体はリポジトリに含まれていないため、MIDIファイルは別途インターネット等で入手する必要がある（READMEに記載）。",
+            "翻訳はまだオンライン管理プラットフォームで公開されておらず、assets/loc/フォルダを確認するようにREADMEに記載されている。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Housemate",
+      "author": "perchbird",
+      "description": "Housemate offers multiple features that help you gain inspiration from other homes in XIV. If you’re looking for a specific home or outdoor item, you can check the exterior list when running around a ward. If you’re interested in seeing what items make up a structure in a home - turn on the item overlay to see what they are! Note: This plugin is purely informational, and does not assist you in placing or “glitching” housing items.",
+      "href": "https://github.com/lmcintyre/Housemate",
+      "descriptionJa": "Housemateは、XIV内の他のハウジングからインスピレーションを得るのに役立つ複数の機能を提供します。特定の住宅や屋外アイテムを探している場合は、ワード内を歩き回る際に外観リストを確認できます。住宅内の構造を構成するアイテムを見たい場合は、アイテムオーバーレイをオンにしてそれらを表示してください。注：このプラグインは純粋に情報提供のみを目的としており、ハウジングアイテムの配置や「グリッチ」を手助けするものではありません。",
+      "downloadCount": 11389,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/lmcintyre/Housemate",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Item Search",
+      "author": "Caraxi",
+      "description": "Filterable search for Items and Key Items. Try on any item without having to find someone to link it.",
+      "href": "https://github.com/Caraxi/ItemSearchPlugin",
+      "descriptionJa": "アイテムと重要アイテムを絞り込んで検索できます。誰かにリンクしてもらう必要なく、どのアイテムでも試着できます。",
+      "downloadCount": 33002,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Caraxi/ItemSearchPlugin",
+        "pushedAt": "2026-08-09T04:37:40Z",
+        "archived": false,
+        "repoDescription": "Dalamud Plugin for searching for items",
+        "summary": {
+          "purposeJa": "Dalamudプラグインで、ゲーム内のアイテム検索ウィンドウを開いてアイテムを検索・リンク作成・試着できるツール。ゲーム内で /xlitem を入力して検索ウィンドウを開く。",
+          "featuresJa": [
+            "ゲーム内でアイテムを検索し、該当アイテムのゲーム内リンクを作成できる（所有していないアイテムでもリンク作成可能）。",
+            "正規表現（regex）パターンを入力して、パターンに合致するアイテムを検索できる。",
+            "装備レベル（equip level）およびアイテムレベルの範囲で表示アイテムを絞り込める。",
+            "検索ウィンドウから直接アイテムを試着できる（リンクを作成せずに試着可能）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/xlitem — ゲーム内で検索ウィンドウを開く"
+          ],
+          "dependenciesJa": [
+            "Dalamudプラグインとして実装されている",
+            "DalamudのItemSearchWindow機能を使用してビルドされている"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため使用は自己責任です。READMEに自動化・戦闘補助・外部通信・権限に関する記載はありませんが、ゲームの規約やアカウント運用には注意してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "JobBars",
+      "author": "ocealot",
+      "description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
+      "href": "https://github.com/0ceal0t/JobBars",
+      "descriptionJa": "追加のジョブゲージ、パーティバフのタイマー、軽減トラッカーなどを表示します。アイコン：PAPACHIN",
+      "downloadCount": 24637,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/0ceal0t/JobBars",
+        "pushedAt": "2026-05-26T03:52:11Z",
+        "archived": false,
+        "repoDescription": "A plugin for XIVQuickLauncher which provides extra job bars",
+        "summary": {
+          "purposeJa": "XIVQuickLauncher用のプラグインで、追加のジョブゲージやパーティバフトラッカーなどを画面に表示して既存UIを補助すること",
+          "featuresJa": [
+            "特定バフ下での残りGCD回数を表示（例：Fight or Flight、Inner Release）",
+            "DoTの状態をトラッキングして画面に表示（例：Dia、Miasma）",
+            "プロック表示（Verfire/Verstoneの準備完了を表示）",
+            "チャージ数表示（例：Ricochet、Gauss Round）",
+            "スタック数表示（例：Ruin IV）",
+            "アイコン置換表示：DoTの再付与までの時間やバフの残り時間をアイコン上に表示",
+            "パーティバフのクールダウン終了（使用可能になる状態）を表示",
+            "被ダメージ軽減（Mitigation）をトラッキングして表示",
+            "カーソル表示：キャスト時間、GCDタイマー、MPティック、DoTティックを表示",
+            "各ゲージ／バフ／軽減等は個別に有効・無効を切替可能"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/jobbars — 設定メニューを開く",
+            "ホットバーのアイコン位置を変更した際、アイコン表示を更新するために別ジョブに切り替えてから戻す必要がある場合がある（Usageより）"
+          ],
+          "dependenciesJa": [
+            "XIVQuickLauncher (https://github.com/goatcorp/FFXIVQuickLauncher)"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・外部通信・権限等に関する記載はありません。非公式プラグインは使用に際し自己責任である点に注意してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Kapture",
+      "author": "kalilistic",
+      "description": "Kapture is a loot tracker to capture drops, obtained items, rolls, and more. Use the roll monitor to see who you are waiting on to roll.",
+      "href": "https://github.com/kalilistic/Dalamud.Kapture",
+      "descriptionJa": "Kaptureは、ドロップ、獲得したアイテム、ロールなどを記録する戦利品トラッカーです。ロールモニターを使えば、誰のロールを待っているか確認できます。",
+      "downloadCount": 14073,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/kalilistic/Dalamud.Kapture",
+        "pushedAt": "2025-01-31T20:51:04Z",
+        "archived": false,
+        "repoDescription": "Track your loot.",
+        "summary": {
+          "purposeJa": "FFXIVで自分の戦利品（loot）を追跡するためのDalamudプラグイン。",
+          "featuresJa": [
+            "FFXIV内で自分の戦利品（loot）を追跡する機能を提供する。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud",
+            "FFXIV"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記述はありません。非公式プラグインのため、使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Kingdom Hearts UI Bars",
+      "author": "Gotest",
+      "description": "A plugin that makes Kingdom Hearts UI stuff, such as a health bar for the player. If you have any questions, issues or suggestions, please post an issue in the github or ping me in the Discord!",
+      "href": "https://github.com/Arrenton/KingdomHeartsPlugin",
+      "descriptionJa": "Kingdom Hearts UI Barsは、プレイヤー用のヘルスバーなど、Kingdom HeartsのUI要素を作成するプラグインです。ご質問、問題、または提案がある場合は、githubにissueを投稿するかDiscordで私にpingしてください。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Arrenton/KingdomHeartsPlugin",
+        "pushedAt": "2026-05-10T15:36:47Z",
+        "archived": false,
+        "repoDescription": "A Kingdom Hearts UI plugin for FFXIV (Dalamud)",
+        "summary": {
+          "purposeJa": "XIVLauncher（Final Fantasy 14）向けのシンプルなKingdom Hearts風UIプラグイン。",
+          "featuresJa": [
+            "プレイヤー向けにKingdom Hearts II（KH2）のヘルス（HP）／マナ（MP）／ドライブバーを表示する。",
+            "プレイヤーのための経験値（EXP）バーを追加する。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher（Final Fantasy 14）"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため、使用は自己責任で行ってください。ゲームの利用規約や運営方針に抵触する可能性があるため注意してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Macro Chain",
+      "author": "Caraxi",
+      "description": "Allows for a macro to continue onto the next macro by using ‘/nextmacro’ on the last line of a macro. Adding ‘/nextmacro’ on the last line of Macro #01 will automatically execute Macro #02 Adding ‘/nextmacro down’ on the last line of Macro #01 will automatically execute Macro #11 Also allows executing any macro from chat using ‘/runmacro’ but this command cannot be used while macros are running.",
+      "href": "https://github.com/Caraxi/MacroChain",
+      "descriptionJa": "Macro Chainは、マクロの最終行に‘/nextmacro’を記述することで、マクロを次のマクロへと連続実行できるようにします。Macro #01の最終行に‘/nextmacro’を追加すると自動的にMacro #02が実行され、Macro #01の最終行に‘/nextmacro down’を追加すると自動的にMacro #11が実行されます。また、チャットから‘/runmacro’を使って任意のマクロを実行することもできますが、このコマンドはマクロ実行中には使用できません。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Caraxi/MacroChain",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "MapLinker",
+      "author": "Bluefissure",
+      "description": "Automatically record the maplinks in chat and retrieval later.",
+      "href": "https://github.com/Bluefissure/MapLinker",
+      "descriptionJa": "チャット内のマップリンクを自動で記録し、後で取得できるようにします。",
+      "downloadCount": 11374,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Bluefissure/MapLinker",
+        "pushedAt": "2026-05-03T03:02:33Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "ゲーム内チャットに表示された maplink 情報を記録し、記録した地点を照会（表示）したり、最寄りのクリスタルへテレポートするための Dalamud プラグイン。",
+          "featuresJa": [
+            "ゲーム内チャットに存在する maplink（座標付きリンク）を記録する",
+            "記録した maplink を照会（クエリ）できる",
+            "記録した地点をマップ上にマーカー表示できる（View/取得機能、ChatCoordinates プラグインが必要）",
+            "最寄りのエーテライト（クリスタル）へテレポートできる（Teleporter プラグインが必要）",
+            "/maplink コマンドでコンフィグパネルを呼び出せる"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/maplink — コンフィグパネルを開く"
+          ],
+          "dependenciesJa": [
+            "ChatCoordinates プラグイン（View/取得に必要）",
+            "Teleporter プラグイン（Teleport に必要）",
+            "Dalamud プラグイン環境（Dalamud Plugin Manager でのインストールが案内されている）"
+          ],
+          "cautionsJa": [
+            "本プラグインは他プラグイン（ChatCoordinates、Teleporter）に動作を依存する機能がある（README に記載）。",
+            "非公式プラグインです。使用は自己責任で、ゲームの利用規約やアカウント方針に注意してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Market board",
+      "author": "fmauNeko",
+      "description": "Browse the market board. /pmb to open.",
+      "href": "https://github.com/fmauNeko/MarketBoardPlugin",
+      "descriptionJa": "マーケットボードを閲覧します。/pmb で開きます。",
+      "downloadCount": 58896,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "4",
+      "popularityLabel": "非常に人気",
+      "popularityClass": "popularity-4",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/fmauNeko/MarketBoardPlugin",
+        "pushedAt": "2026-04-30T08:10:56Z",
+        "archived": false,
+        "repoDescription": "Market board information plugin for XIVLauncher / Dalamud",
+        "summary": {
+          "purposeJa": "XIVLauncher / Dalamud 用のマーケットボード情報プラグイン。",
+          "featuresJa": [
+            "マーケットボードの情報を提供する（READMEの記載）",
+            "具体的な表示内容や取得項目はREADMEに明記なし"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher / Dalamud"
+          ],
+          "cautionsJa": [
+            "READMEに安全性や自動化・戦闘補助・外部通信・権限に関する記載はないため、非公式プラグインは自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Mini",
+      "author": "Eternita",
+      "description": "Adds a button and a command to minimize your game into taskbar",
+      "href": "https://github.com/Eternita-S/Mini",
+      "descriptionJa": "ゲームをタスクバーに最小化するためのボタンとコマンドを追加します。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Eternita-S/Mini",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "ezMiniCactpot",
+      "author": "daemitus",
+      "description": "This plugin highlights tiles and lines in MiniCactpot that represent the best potential action you can take.",
+      "href": "https://github.com/daemitus/MiniCactpotSolver",
+      "descriptionJa": "このプラグインは、MiniCactpotにおいてあなたが取ることのできる最良の行動を示すタイルとラインをハイライトします。",
+      "downloadCount": 43507,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/daemitus/MiniCactpotSolver",
+        "pushedAt": "2025-12-19T20:50:46Z",
+        "archived": true,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "ミニカクポット（Mini Cactpot）のチケット上で、最適な選択肢をハイライト表示するDalamudプラグイン。現在は機能がVanillaPlusへ移行されており、このプラグイン自体は今後更新されないためVanillaPlusの使用が推奨される。",
+          "featuresJa": [
+            "ミニカクポットのチケット上で最適な選択肢をハイライト表示する。",
+            "プラグインの機能はVanillaPlusへ移行済みで、このプラグインは更新されない（移行の明記）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud（このプラグインはDalamud用であると明記）",
+            "VanillaPlus（機能移行先として明記）"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する注意の明記はないため、非公式プラグインである点を理解し、自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Mouseover Action",
+      "author": "attick",
+      "description": "This plugin lets you target friends or enemies like a macro, without the clunkiness of a macro. /pmoaction opens the configuration.",
+      "href": "https://github.com/attickdoor/MOActionPlugin",
+      "descriptionJa": "Mouseover Action はマクロのようにフレンドや敵をターゲットにできるプラグインで、マクロ特有の煩わしさがありません。/pmoaction で設定を開きます。",
+      "downloadCount": 27198,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/attickdoor/MOActionPlugin",
+        "pushedAt": "2026-05-07T18:28:05Z",
+        "archived": false,
+        "repoDescription": "Dalamud plugin to allow for macro-less use of mouseover actions.",
+        "summary": {
+          "purposeJa": "マウスオーバーした対象に対してアビリティを発動できるようにし、XIVでのマウスオーバーマクロの手間や動作の不安定さを解消すること。",
+          "featuresJa": [
+            "マウスを乗せた対象に対してアビリティを使用可能にする（マウスオーバー操作の提供）",
+            "マクロを使わずにマウスオーバー操作でアビリティを発動できるようにすることで操作の手間を減らす",
+            "アビリティのマウスオーバー時のキューイングをシームレスにすることを目指す",
+            "パーティリスト等に切り替えずに画面上の対象やUI上の名前に対して回復やバフ等の操作を行える（READMEの説明に基づく）",
+            "フィールド（画面上のキャラモデル）とGUI（パーティリストや敵対リスト上の名前）のマウスオーバーに対応（READMEの定義に基づく）"
+          ],
+          "settingsJa": [
+            "許可されたマウスオーバー操作を編集するためのGUIを表示して編集可能（/pmoactionで開く）",
+            "\"Field mouseover\": 画面上のキャラクターモデルにマウスを置く操作の扱いに関する設定（READMEの定義）",
+            "\"GUI mouseover\": パーティリストや敵対リストなどUI上の名前にマウスを置く操作の扱いに関する設定（READMEの定義）"
+          ],
+          "commandsJa": [
+            "/xlplugins — プラグインインストーラーとアップデーターを起動（READMEに明記）",
+            "/pmoaction — 許可されたマウスオーバー操作を編集するGUIを表示（READMEに明記）"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・外部通信・権限に関する記載はありません。非公式プラグインの使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "NamePlateDebuffs",
+      "author": "aers",
+      "description": "Displays your debuffs on enemy nameplates.",
+      "href": "https://github.com/aers/NamePlateDebuffs",
+      "descriptionJa": "NamePlateDebuffsは敵のネームプレートにあなたのデバフを表示します。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/aers/NamePlateDebuffs",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Namingway",
+      "author": "ascclemens",
+      "description": "Rename abilities and status effects.",
+      "href": "https://git.sr.ht/~jkcclemens/Namingway",
+      "descriptionJa": "アビリティとステータス効果の名前を変更します。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "NeatNoter",
+      "author": "kalilistic, karashiiro",
+      "description": "NeatNoter allows you to take notes without switching windows or any of that.",
+      "href": "https://github.com/kalilistic/NeatNoter",
+      "descriptionJa": "NeatNoterは、ウィンドウを切り替えるなどの手間をかけずにメモを取れるようにします。",
+      "downloadCount": 16833,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/kalilistic/NeatNoter",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "NoSoliciting",
+      "author": "ascclemens",
+      "description": "Customisable chat and Party Finder filtering. In addition to letting you filter anything from chat and PF, it comes with built-in filters for the following: - RMT (both gil and content) - FC ads - RP ads - Phishing messages - Static recruitment - Trade ads - Community ads - Any PF with an item level over the max",
+      "href": "https://git.sr.ht/~jkcclemens/NoSoliciting",
+      "descriptionJa": "カスタマイズ可能なチャットおよびParty Finderのフィルタリング機能です。チャットやPFのあらゆるものをフィルタリングできるだけでなく、RMT（gilとコンテンツの両方）、FC広告、RP広告、フィッシングメッセージ、固定募集、トレード広告、コミュニティ広告、アイテムレベルが最大を超えるPFすべてに対する組み込みフィルターが含まれます。",
+      "downloadCount": 29619,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "NotificationMaster",
+      "author": "Eternita",
+      "description": "Notifies you about various events while your game is minimized.",
+      "href": "https://github.com/Eternita-S/NotificationMaster",
+      "descriptionJa": "ゲームを最小化している間に、さまざまなイベントを通知します。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Eternita-S/NotificationMaster",
+        "pushedAt": "2026-06-17T21:55:37Z",
+        "archived": false,
+        "repoDescription": "Notifies you about various events while your game is minimized.",
+        "summary": {
+          "purposeJa": "ゲームが最小化されている間に各種イベントの通知を行うプラグインです。",
+          "featuresJa": [
+            "ゲームが最小化されている間に各種イベントについて通知を受け取る。"
+          ],
+          "settingsJa": [
+            "/xlsettingsでプラグインテストを有効化（experimental）",
+            "プラグイン一覧からプラグインをインストールする"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため自己責任で利用してください。ゲームの利用規約に抵触する可能性がある機能がないか自身で確認してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Oops, All Lalafells!",
+      "author": "Avaflow",
+      "description": "Turn everyone around you into Lalafells (or other races!) Use /poal to open settings.",
+      "href": "https://ava.dev/oops-all-lalafells/",
+      "descriptionJa": "周囲の全員をLalafells（または他の種族）に変えます。設定を開くには /poal を使用してください。",
+      "downloadCount": 28603,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Orchestrion Plugin",
+      "author": "Meli & perchbird",
+      "description": "Orchestrion Plugin allows you to change the currently playing in-game BGM. It includes a curated list of the most accurate in-game song titles, so you know exactly what’s playing, if you want to know later! Add favorite songs to separate them from the rest. Note: This plugin does not currently allow you to play actual orchestrion songs.",
+      "href": "https://github.com/lmcintyre/OrchestrionPlugin",
+      "descriptionJa": "Orchestrion Plugin は、現在再生中のゲーム内BGMを変更できます。ゲーム内の曲名を厳選して最も正確な一覧を収録しているため、後で何が再生されていたのかを正確に把握できます。お気に入りの曲を追加して他の曲と区別することができます。注意: このプラグインは現在、実際のオーケストリオン曲を再生することはできません。",
+      "downloadCount": 21448,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/lmcintyre/OrchestrionPlugin",
+        "pushedAt": "2025-01-31T16:52:24Z",
+        "archived": true,
+        "repoDescription": "Simple BGM management plugin for XivLauncher",
+        "summary": {
+          "purposeJa": "このリポジトリは移転されています。READMEには新しいリポジトリとして https://github.com/perchbirdd/OrchestrionPlugin が示されています。",
+          "featuresJa": [
+            "READMEに明記なし"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載はありません。",
+            "非公式プラグインは自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "owo plugin",
+      "author": "goat, modded by Franz",
+      "description": "This plugin uwu’s your chat.",
+      "href": "",
+      "descriptionJa": "このプラグインはチャットをuwu化します。",
+      "downloadCount": 32268,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Pat Me",
+      "author": "MgAl2O4",
+      "description": "Did you ever wonder how many times your Lala gets a pat? Well, now you can count it!",
+      "href": "https://github.com/MgAl2O4/PatMeDalamud",
+      "descriptionJa": "あなたのLalaが何回撫でられたか気になったことはありませんか？ これで数えることができます！",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/MgAl2O4/PatMeDalamud",
+        "pushedAt": "2026-04-29T23:59:23Z",
+        "archived": false,
+        "repoDescription": "Pat pat pat.",
+        "summary": {
+          "purposeJa": "キャラクターがpat（撫でられる）された回数をカウントするためのDalamudプラグイン。",
+          "featuresJa": [
+            "キャラクターがpat（撫でられる）された回数をカウントする。",
+            "オーバーレイ画像を使用（FINAL FANTASY XIV Fan Kitの壁紙から切り出し、著作権: SQUARE ENIX CO., LTD. と明記）。",
+            "開発者連絡先がREADMEに記載されている（MgAl2O4@protonmail.com）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud"
+          ],
+          "cautionsJa": [
+            "非公式プラグインのため自己責任で使用してください。ゲームの利用規約に抵触しないか確認してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Peeping Tom",
+      "author": "ascclemens",
+      "description": "Shows who is currently or was previously targeting you.",
+      "href": "https://sr.ht/~jkcclemens/PeepingTom",
+      "descriptionJa": "現在あなたをターゲットにしている、または以前あなたをターゲットにしていた相手を表示します。",
+      "downloadCount": 68259,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "4",
+      "popularityLabel": "非常に人気",
+      "popularityClass": "popularity-4",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Penny Pincher",
+      "author": "tesu",
+      "description": "Plugin for simplifying “pennying” (undercutting current lowest offer by 1). The usual workflow for this is the following: 1. Open up the adjust price menu for the item you’re undercutting 2. Click on the compare prices menu to view the current listings 3. Take a mental note of what the current lowest offer is 4. Subtract one from it 5. Close the current listings window 6. Update your item’s price with the number you noted 7. Confirm your new price This plugin eliminates the mental notekeeping steps in the middle by automatically copying the number you want onto your clipboard when you open the current listings window. Therefore, your new workflow becomes this: 1. Open up the adjust price menu for the item you’re undercutting 2. Click on the compare prices menu to view the current listings 3. Close the current listings window 4. Paste the undercut value in 5. Confirm your new price This both speeds up the process and reduces room for error from typos.",
+      "href": "https://github.com/tesu/PennyPincher",
+      "descriptionJa": "「pennying」（現在の最安値を1下回るように価格を設定すること）を簡略化するプラグインです。通常の作業手順は次の通りです。1. 値下げしようとしているアイテムの価格調整メニューを開く、2. 現在の出品を表示するために価格比較メニューをクリックする、3. 現在の最安値を頭の中でメモする、4. そこから1を引く、5. 現在の出品ウィンドウを閉じる、6. メモした数値でアイテムの価格を更新する、7. 新しい価格を確定する。このプラグインは、中間の頭の中でのメモを省き、現在の出品ウィンドウを開いたときに欲しい数値を自動的にクリップボードにコピーします。したがって、新しい作業手順は次のようになります。1. 値下げしようとしているアイテムの価格調整メニューを開く、2. 現在の出品を表示するために価格比較メニューをクリックする、3. 現在の出品ウィンドウを閉じる、4. アンダーカットする値を貼り付ける、5. 新しい価格を確定する。これにより処理が速くなり、タイプミスによる誤りの余地が減ります。",
+      "downloadCount": 38365,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/tesu/PennyPincher",
+        "pushedAt": "2026-04-30T15:26:34Z",
+        "archived": false,
+        "repoDescription": "XIVLauncher plugin for undercutters",
+        "summary": {
+          "purposeJa": "XIVLauncher向けプラグインで、マーケットの“pennying”（現在の最低出品価格より1安く出品する）操作を簡素化する。比較価格ウィンドウを開いたときに、アンダーカットすべき価格を自動でクリップボードにコピーする機能を提供する。",
+          "featuresJa": [
+            "比較価格（current listings）ウィンドウを開くと、アンダーカットすべき価格を自動でクリップボードにコピーする。",
+            "コピー→閉じる→貼り付け→確定、という短い手順にできるため処理が速くなり、タイプミスによる誤入力の余地を減らす。",
+            "HQアイテム出品時に自動でHQをアンダーカットする（HQモード。必要に応じてオフにできると明記）。",
+            "自分のリテイナー出品をアンダーカットしないよう回避する挙動（リテイナー検出の回避）。",
+            "Shiftキーを使ったHQ動作の切替（例: マーケットボードを開くときにShiftを押すとHQ価格をアンダーカットする、という挙動が記載されている）。",
+            "常に複数単位でアンダーカットするオプションを提供する（複数によるアンダーカット設定が追加された）。",
+            "設定はUIで行える（以前はスラッシュコマンドだったがUI設定に移行）。",
+            "内部の安定化やバグ修正（リテイナー検出の修正、ネットワークパケット処理回避のためのリファクタなど）が行われている旨の変更履歴がある。"
+          ],
+          "settingsJa": [
+            "HQモード（HQアイテムを自動でアンダーカットする。無効化可能）",
+            "HQ動作の切替（Shiftを押しながら開く等、旧/新のHQ動作を切替えるオプション）",
+            "常に複数単位でアンダーカットするオプション（複数によるアンダーカット設定）",
+            "新しい挙動の有効/無効を切り替える設定（リリース履歴に「設定オプションを更新して新挙動の有効/無効を切替可能」との記載）",
+            "UI経由での設定（「Configuration via UI instead of slash-commands」と明記）"
+          ],
+          "commandsJa": [
+            "/penny （以前の /penny alwayson がリネームされたもの）",
+            "/penny hq （HQ関連のトグル／動作に関するコマンドとして履歴に記載）",
+            "/penny min （追加されたコマンドとして履歴に記載）",
+            "/penny mod （追加されたコマンドとして履歴に記載）"
+          ],
+          "dependenciesJa": [
+            "XIVLauncherプラグイン（README冒頭に明記）",
+            "Dalamud/API バージョン関連（複数回のAPI version bumpがリリース履歴に記載）",
+            ".NET 6 / .NET 7（.NET 6/7への更新が履歴に記載）",
+            "実装上の変更: hooksを使用（「Use hooks instead of opcodes」との記載）"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する明示的な注意はない。非公式プラグインのため、使用は自己責任で行い、ゲーム規約・アカウントの影響・セキュリティについては自己で確認してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "PingPlugin",
+      "author": "karashiiro",
+      "description": "A ping display plugin for Dalamud.",
+      "href": "https://github.com/karashiiro/PingPlugin",
+      "descriptionJa": "Dalamud向けのping表示プラグイン。",
+      "downloadCount": 41908,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/karashiiro/PingPlugin",
+        "pushedAt": "2026-05-14T03:09:53Z",
+        "archived": false,
+        "repoDescription": "A ping display plugin for Dalamud.",
+        "summary": {
+          "purposeJa": "PingPluginは、Dalamud向けのping表示プラグインで、最新のping値と設定可能なステップ数に基づく平均pingをモニターとグラフで表示します。",
+          "featuresJa": [
+            "画面上にpingモニターを表示し、最新のping値を確認できる。",
+            "pingグラフを表示して記録されたping履歴を視覚化できる。",
+            "グラフは設定した『Recorded pings』のステップ数に基づく平均pingを表示する。",
+            "最小表示モードではモニターを3行表示から1行表示に切り替え、サーバーのIPアドレスを表示しない。",
+            "エラー表示があり、エラー発生時はモニターが一時的に1行分拡張される（エラー表示は設定で非表示にできる）。"
+          ],
+          "settingsJa": [
+            "Lock plugin windows: ウィンドウの誤ドラッグを防ぐ（ただしグラフへのホバーや折りたたみは可能）。",
+            "Click through plugin windows: プラグインウィンドウのクリックを無視し、代わりにゲーム側のクリックとして扱う。",
+            "Hide overlays during cutscenes: カットシーン中にオーバーレイを非表示にする。",
+            "Minimal display: モニターを3行表示から1行表示にする（このモードでは現在のサーバーIPを省略する）。",
+            "Hide errors: エラー表示を抑制し、エラーによるモニターの一時拡張を防ぐ（非表示は推奨されていない旨の注記あり）。",
+            "Recorded pings: グラフに表示・平均化するpingの数（ステップ数）。",
+            "Monitor Color: モニターのテキスト色を設定する。",
+            "Error Color: エラー表示のテキスト色を設定する。",
+            "Monitor Opacity: モニター背景の透過率を設定する。",
+            "Language: 表示言語を選択（現在はEnglish, Japanese, Spanish, German がオプションとして記載されている）。"
+          ],
+          "commandsJa": [
+            "/ping - pingモニターの表示/非表示。",
+            "/pinggraph - pingグラフの表示/非表示。",
+            "/pingconfig - チャットから設定画面を開く。"
+          ],
+          "dependenciesJa": [
+            "Dalamud (https://github.com/goatcorp/Dalamud)"
+          ],
+          "cautionsJa": [
+            "エラー非表示設定について: 非表示化は可能だが非推奨。READMEでは多くのエラーは一時的なサーバータイムアウトであり無視できる場合が多いと記載されている。",
+            "非公式プラグインであるため、導入・使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Pixel Perfect",
+      "author": "Haplo064",
+      "description": "Showing exactly where to stand since 2020.",
+      "href": "https://github.com/Haplo064/PixelPerfect",
+      "descriptionJa": "2020年から正確な立ち位置を表示しています。",
+      "downloadCount": 44856,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Haplo064/PixelPerfect",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "PlayerTrack",
+      "author": "kalilistic",
+      "description": "PlayerTrack helps you keep a record of who you meet and the content you played together. Organize players into categories, keep notes, and track them across name/world changes. Customization options include colors, icons, nameplates, and alerts.",
+      "href": "https://github.com/kalilistic/PlayerTrack",
+      "descriptionJa": "PlayerTrackは、出会ったプレイヤーや一緒に遊んだコンテンツの記録を保持するのに役立ちます。プレイヤーをカテゴリに整理し、メモを残し、名前やワールドの変更をまたいで追跡できます。色、アイコン、ネームプレート、アラートなどのカスタマイズオプションがあります。",
+      "downloadCount": 16290,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/kalilistic/PlayerTrack",
+        "pushedAt": "2026-05-31T18:40:48Z",
+        "archived": false,
+        "repoDescription": "Keep track of players you meet.",
+        "summary": {
+          "purposeJa": "出会ったプレイヤーと一緒にプレイしたコンテンツを記録・管理するためのプラグイン。プレイヤーをカテゴリ分けし、メモを残せるほか、名前やワールド変更後も追跡できる。表示や通知の色・アイコン・ネームプレート等をカスタマイズ可能。",
+          "featuresJa": [
+            "出会ったプレイヤーの記録を保持する。",
+            "一緒にプレイしたコンテンツを記録する。",
+            "プレイヤーをカテゴリに整理できる。",
+            "プレイヤーにメモを保存できる。",
+            "名前やワールド変更後もプレイヤーを追跡する。",
+            "色・アイコン・ネームプレート・アラートといった表示や通知をカスタマイズできる。",
+            "メインウィンドウから記録を閲覧・管理できる（/ptrackで開く）。"
+          ],
+          "settingsJa": [
+            "色（カスタマイズ）",
+            "アイコン（カスタマイズ）",
+            "ネームプレート（カスタマイズ）",
+            "アラート（カスタマイズ）"
+          ],
+          "commandsJa": [
+            "/ptrack - メインウィンドウを開く",
+            "/ptrackconfig - 設定を開く"
+          ],
+          "dependenciesJa": [
+            "AutoMapper",
+            "Dapper",
+            "FlexConfig",
+            "FluentDapperLite",
+            "FluentMigrator",
+            "SQLite"
+          ],
+          "cautionsJa": [
+            "非公式プラグインです。使用は自己責任で行ってください。READMEに自動化・戦闘補助・外部通信・権限に関する記載はありませんので、ゲームの利用規約やサーバー規約に従ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "PrefPro",
+      "author": "perchbird",
+      "description": "Your character is personal, so you should be able to have NPCs refer to them the way that you want. With PrefPro, you can control which text option will appear when an NPC uses dialogue meant for a specific in-game gender. This allows you to use a female player model and be referred to as male, and vice versa. In addition, there are a few name customization options - if you want to only be referred to by your last name, so be it. Note: This plugin currently will not swap voiced cutscene dialogue.",
+      "href": "https://github.com/lmcintyre/PrefPro",
+      "descriptionJa": "あなたのキャラクターは個人的な存在なので、NPCに望む呼び方で呼ばれるべきです。PrefPro を使えば、NPCが特定のゲーム内性別向けの対話で表示するテキストオプションを制御できます。これにより、女性のプレイヤーモデルを使用していても男性として呼ばれたり、その逆も可能になります。さらに、姓だけで呼ばれるようにするなど、いくつかの名前カスタマイズオプションがあります。注意: このプラグインは現時点で声付きカットシーンの台詞を入れ替えることはできません。",
+      "downloadCount": 5890,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/lmcintyre/PrefPro",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "PriceCheck",
+      "author": "kalilistic",
+      "description": "To check prices, hold your keybind and then hover over an item or via the item’s context menu. The prices are pulled from the crowd-sourced site Universalis.",
+      "href": "https://github.com/kalilistic/PriceCheck",
+      "descriptionJa": "価格を確認するには、キー割り当てを押しながらアイテムにカーソルを合わせるか、アイテムのコンテキストメニューから行います。価格はクラウドソーシングのサイトUniversalisから取得されます。",
+      "downloadCount": 51612,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "4",
+      "popularityLabel": "非常に人気",
+      "popularityClass": "popularity-4",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/kalilistic/PriceCheck",
+        "pushedAt": "2025-08-06T21:30:35Z",
+        "archived": false,
+        "repoDescription": "Quickly price check your items.",
+        "summary": {
+          "purposeJa": "アイテムの価格を素早く確認するためのDalamudプラグイン。",
+          "featuresJa": [
+            "キー割り当てを押した状態でインベントリ内のアイテムやチャットでリンクされたアイテムにカーソルを合わせると価格を表示するオーバーレイを提供する。",
+            "表示される価格はUniversalisの平均値であり、市場板の個々の出品とは一致しない。",
+            "/pcheck（/pricecheck）でオーバーレイを開ける。",
+            "/pcheckconfig（/pricecheckconfig）で設定画面を開ける。"
+          ],
+          "settingsJa": [
+            "キー割り当てを設定または無効化できる（PriceCheckの設定内で変更可能）。",
+            "設定画面はコマンド /pricecheckconfig または /pcheckconfig で開く。"
+          ],
+          "commandsJa": [
+            "/pricecheck または /pcheck — オーバーレイを開く。",
+            "/pricecheckconfig または /pcheckconfig — 設定を開く。"
+          ],
+          "dependenciesJa": [
+            "Dalamud（プラグイン実行環境として記載あり）",
+            "Universalis（価格の平均値のデータソースとして明記）"
+          ],
+          "cautionsJa": [
+            "価格はUniversalisの平均値を表示するため、市場板の個別出品や現在の個別価格と一致しない。",
+            "Universalisからのデータを使用している（外部データソースとの連携があることがREADMEに明記されている）。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "QoL Bar",
+      "author": "UnknownX",
+      "description": "A plugin designed to provide a simple, customizable and always available interface for chat commands or other plugins to alleviate the need for using macros and hotbar space to achieve similar results. The plugin should initially appear as a small box on the bottom center of the game window.",
+      "href": "https://github.com/UnknownX7/QoLBar",
+      "descriptionJa": "チャットコマンドや他のプラグイン用に、マクロやホットバーのスペースを使わずに同等の操作を行えるよう、シンプルでカスタマイズ可能、常時利用可能なインターフェースを提供することを目的としたプラグインです。プラグインは初期表示ではゲームウィンドウ下部中央に小さなボックスとして表示されます。",
+      "downloadCount": 24595,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/UnknownX7/QoLBar",
+        "pushedAt": "2026-05-07T16:09:33Z",
+        "archived": false,
+        "repoDescription": "A XIVLauncher plugin.",
+        "summary": {
+          "purposeJa": "XIVLauncher向けのプラグインで、ホットバーやマクロに似たカスタムメニュー（バー）とショートカットを画面上に作成・管理できる機能を提供する。",
+          "featuresJa": [
+            "初回導入後に画面下に空のバーと機能例のDemo Barが表示される（Demo Barは削除・再作成可能）",
+            "バー上のボタン（ショートカット）を左クリックで実行、アンロック状態で移動可能",
+            "右クリックでホバー中のショートカットやバーの設定を開く／Shift+右クリックでショートカットを追加",
+            "ショートカット名に末尾の##でツールチップを追加できる（例: Plugins##Opens the plugin installer）",
+            "ショートカット名に::#形式でゲーム内アイコンを指定できる（例: ::1）、アイコンに修飾子(::x#)を付けられる",
+            "編集画面の虫眼鏡またはコマンドでアクセスする内蔵のアイコンブラウザでIDをコピーできる（/qolicons）",
+            "カスタムアイコン利用のためのIcon BrowserのCustomタブがある（手順はCustomタブに従う）",
+            "ショートカットはモード変更が可能（IncrementalやRandomなど）で、カテゴリもモードを持たせて動作を変えられる",
+            "バーをドック位置／アライメントでウィンドウ内の位置に合わせられる。Undockedオプションでゲーム外にドラッグ可能（Dalamudオプションが有効な場合）",
+            "ホットキーを設定するとバーを円形メニュー（Pie）として呼び出せる。バーは非表示でもホットキーは機能する（/qolvisibleで非表示にできる）",
+            "バーにCondition Setを割り当てるとゲーム状態に応じて自動的に表示／非表示を切り替えられる（Condition Setsタブで作成）",
+            "ショートカットからマクロを実行するには//m#形式を使う（#はマクロスロット、共有タブは100を足す）",
+            "//mでスロット指定なしに複数行を囲むことでプラグイン内のカスタムマクロとして実行できる（コードブロック例あり）",
+            "ショートカット内で//で始まる行はコメントとして扱える",
+            "編集画面のExportボタンでバーやショートカットを共有用テキストに出力、Importボタンでそのテキストからインポート可能",
+            "スライダーなどでダブルクリックまたはCtrl+左クリックにより直接数値入力ができる"
+          ],
+          "settingsJa": [
+            "Demo Bar（初期表示のサンプルバー）",
+            "Plugin config内のImport / Exportボタン",
+            "Bar Manager（バーの管理）タブ",
+            "Condition Sets（条件セット）タブ",
+            "Icon Browser（編集時の虫眼鏡、/qolicons）およびそのCustomタブ",
+            "ショートカットのName / Command / Mode入力（Name欄のツールチップに表示される説明あり）",
+            "BarのDock / Alignment設定（Undockedオプション含む）",
+            "バーのホットキー設定（Pieとして呼び出すため）",
+            "バーの表示/非表示制御（/qolvisibleで隠すことが可能）"
+          ],
+          "commandsJa": [
+            "/xlplugins（READMEは初回導入をこの方法で行うと記載）",
+            "/qolicons（アイコンブラウザを開くコマンドとして記載）",
+            "/qolvisible（バーを非表示にするために言及）",
+            "//m#（ショートカットから特定マクロスロットを実行する構文、例: //m99。共有タブは+100）",
+            "//m（スロット未指定でカスタムマクロブロックを実行する開始/終了トークンの例示あり）",
+            "/macrolock、/wait、/echo（カスタムマクロの例としてコードブロック内に登場）",
+            "// コメント（ショートカット内のコメント行としての使用例）"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher（READMEでFFXIVQuickLauncherへのリンクがある）",
+            "READMEに記載の内容により、Undocked動作は\"Dalamudオプションが有効\"であることが前提と記載（Dalamudオプションの有効化が必要な環境条件として言及）"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する明確な注意の記載はないため、非公式プラグインの使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Quest Map",
+      "author": "ascclemens",
+      "description": "Explore quests and their rewards. - Search for quest names or their rewards, including instances, beast tribes, minions, etc. - See an interactive map of quest requirements and unlocks. - Open a quest info window even for quests you haven’t completed. - Open quest starting locations on the map or open quests in the journal. Icons: treasure map by Anthony Ledoux from the Noun Project and locked book by Anthony Ledoux from the Noun Project",
+      "href": "https://git.sr.ht/~jkcclemens/QuestMap",
+      "descriptionJa": "クエストとその報酬を探索できます。クエスト名や報酬（instances、beast tribes、minions など）で検索でき、クエストの要件と解除条件をインタラクティブなマップで確認できます。未完了のクエストでもクエスト情報ウィンドウを開け、クエストの開始地点をマップで表示したり、journal でクエストを開くこともできます。アイコン: treasure map by Anthony Ledoux from the Noun Project and locked book by Anthony Ledoux from the Noun Project",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "QuestAWAY",
+      "author": "Eternita",
+      "description": "Removes unwanted icons from your map. Not only quests, any icons.",
+      "href": "https://github.com/Eternita-S/QuestAWAY",
+      "descriptionJa": "マップ上の不要なアイコンを削除します。クエストに限らず、あらゆるアイコンに対応します。",
+      "downloadCount": 1597,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Eternita-S/QuestAWAY",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Remind Me",
+      "author": "Caraxi",
+      "description": "UI for showing countdowns for status effects and ability cooldowns.",
+      "href": "https://github.com/Caraxi/RemindMe",
+      "descriptionJa": "Remind Me: ステータス効果とアビリティのクールダウンのカウントダウンを表示するUI。",
+      "downloadCount": 30300,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Caraxi/RemindMe",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Remote Party Finder Uploader",
+      "author": "ascclemens",
+      "description": "Uploads the PF listings you retrieve to the crowdsourced Remote Party Finder website (https://xivpf.com/).",
+      "href": "https://git.sr.ht/~jkcclemens/remote-party-finder",
+      "descriptionJa": "取得したPFの募集情報を、ユーザー投稿型のRemote Party Finderウェブサイト（https://xivpf.com/）にアップロードします。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "RepairMe",
+      "author": "Chalkos",
+      "description": "Helps you notice when your gear needs to be repaired or has materia to be extracted. /repairme to config",
+      "href": "https://github.com/chalkos/RepairMe",
+      "descriptionJa": "装備の修理が必要なとき、または抽出可能なマテリアが装着されているときに気づけるよう支援します。設定は /repairme で行います。",
+      "downloadCount": 2774,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/chalkos/RepairMe",
+        "pushedAt": "2026-07-03T20:00:28Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "XivLauncher/Dalamud用のプラグインで、装備の耐久（コンディション）が低くなったときに気づきやすくする。最も損傷した装備のコンディションを表示し、低下時にアラートを出す。",
+          "featuresJa": [
+            "最も損傷した装備のコンディションを示すバーを表示し、その近くに正確なコンディションのパーセンテージを数字で表示する。",
+            "バーのみ、パーセンテージのみ、または表示しない（アラートのみ表示）ことができる表示モードを提供する。",
+            "バーのサイズと向き（オリエンテーション）を設定できる。",
+            "コンディションが低い／重大なレベルのときにテキスト形式のアラートを表示する。低／重大のしきい値は設定可能。",
+            "アラートはコンディションバーとは独立して位置を指定でき、完全に非表示にもできる。",
+            "バーとアラートはクリックスルー（クリックを透過）だが、設定でアンロックすると移動可能になる。アンロック時はドラッグ用領域を示す赤い背景が表示される（ロックで赤背景を隠せる）。",
+            "設定ウィンドウを開いている間のテストモードで、異なる装備コンディションのパーセンテージをシミュレートして色調整ができる。",
+            "ほとんどのテキスト色と背景色を設定可能。",
+            "コンディション／スピリットボンドのアラートをクリックすると修理／マテリア抽出のUIを開くオプションがある（v1.0.1.5）。",
+            "バーに全装備のスピリットボンドを表示するオプション（色変更可能）、パーセンテージラベルで小数や%記号を隠すオプション、最も低い・最も高いスピリットボンド両方を表示するオプションなどの表示細目設定がある（v1.0.1.3）。",
+            "バーの角丸やバーの枠線（サイズ・色）を調整するオプションがある（v1.0.1.6）。",
+            "デバッグウィンドウが追加されている（v1.0.1.6）。",
+            "プレイヤーが占有中のときにプラグインUIを非表示にするオプションが追加されている（v1.0.1.5）。",
+            "PvPゾーンでは無効化される設定がある（v1.0.1.9）。",
+            "戦闘中のミッドファイトカットシーン中は非表示にする動作がある（v1.0.1.9）。",
+            "特定キャラクターにリンクできる代替アラート設定が追加されている（v1.0.1.11）。",
+            "ウィジェット位置は解像度に紐づけて記憶する。ドラッグ&ドロップやX/Yの精密スライダーで位置調整でき、別解像度から位置設定をコピーするオプションがある（v1.0.1.0等の変更）。",
+            "100%以上のコンディション表示が可能になっている（v1.0.0.3）。"
+          ],
+          "settingsJa": [
+            "表示モード（バーのみ／パーセンテージのみ／表示しない）",
+            "バーのサイズ（大きさ）",
+            "バーの向き（左→右、右→左などのオリエンテーション）",
+            "バーの枠線（ボーダー）のサイズと色",
+            "テキスト色と背景色（ほとんどのテキスト・背景色を設定可能）",
+            "低コンディション／重大コンディションのしきい値（閾値）",
+            "アラートの位置をバーと独立して指定する設定、アラートの表示/非表示",
+            "バー／アラートのクリックスルー（ロック）設定とアンロック時のドラッグ移動",
+            "設定ウィンドウ内のテストモード（装備コンディションのパーセンテージをシミュレート）",
+            "コンディション表示の%記号表示/非表示、少数桁の表示/非表示",
+            "パーセンテージラベルで最も低い／最も高いスピリットボンドを両方表示する設定",
+            "バーに全装備のスピリットボンドを表示する設定（表示色設定あり）",
+            "バーの角丸（コーナーラウンドネス）調整",
+            "ドラッグ&ドロップによる位置調整の有効/無効",
+            "X/Yの精密スライダーによる位置調整",
+            "ウィジェット位置を解像度別に記憶する設定と、別解像度から位置をコピーするオプション",
+            "コンディション／スピリットボンドアラートをクリックして修理／マテリア抽出UIを開くオプション",
+            "プラグインUIをプレイヤーが占有中に隠すオプション",
+            "PvPゾーンでの無効化設定",
+            "ミッドファイトカットシーン中の非表示設定",
+            "代替アラート設定を特定キャラクターにリンクするオプション",
+            "デバッグウィンドウの有無"
+          ],
+          "commandsJa": [
+            "/repairme — 設定ウィンドウを開く"
+          ],
+          "dependenciesJa": [
+            "XivLauncher/Dalamud（プラットフォームとして明記）",
+            "以前は XIVCommons に依存していたが v1.0.1.13 で依存を削除した（READMEに明記）"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・外部通信・権限に関する記載はなし。",
+            "v1.0.1.0 のリリースノートに「WARNING: all bar/alert/percentages positions will be reset（バー/アラート/パーセンテージの位置がリセットされる）」とある。",
+            "非公式プラグインのため、導入・使用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "RezPls",
+      "author": "Ottermandias",
+      "description": "Easy overview about who is currently resurrecting who, who is already resurrected, and who has removable detrimental status effects in the world as well as in the group or alliance interface.",
+      "href": "https://github.com/Ottermandias/RezPls",
+      "descriptionJa": "ワールドおよびパーティ／アライアンスのインターフェース上で、誰が誰を蘇生中か、誰が既に蘇生済みか、そして誰に解除可能な有害ステータス効果が付いているかを簡単に確認できます。",
+      "downloadCount": 18722,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Ottermandias/RezPls",
+        "pushedAt": "2026-04-29T22:18:20Z",
+        "archived": false,
+        "repoDescription": "Signify players currently being rezzed or already rezzed in group/alliance interface and on the ground.",
+        "summary": {
+          "purposeJa": "パーティ／アライアンスのインターフェース上および地面上で、蘇生中のプレイヤーや既に蘇生されたプレイヤーを視覚的に示すこと。また、解呪可能なステータス効果を持つキャラクターを表示すること。",
+          "featuresJa": [
+            "パーティ／アライアンスのインターフェース上で現在蘇生中のプレイヤーを表示する",
+            "パーティ／アライアンスのインターフェース上で既に蘇生されたプレイヤーを表示する",
+            "地面上で蘇生中または蘇生済みのプレイヤーを示す表示を行う",
+            "解呪可能なステータス効果を持つキャラクターを表示する"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載がないため、一般的な注意として、非公式プラグインの使用は自己責任で行い、ゲームの利用規約やサーバールールを確認してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "SillyChat",
+      "author": "kalilistic",
+      "description": "Allows you to translate player and NPC chat messages/bubbles. Supported languages include: Pirate, Urianger, Leet, Pig Latin, and Turkey.",
+      "href": "https://github.com/kalilistic/SillyChat",
+      "descriptionJa": "プレイヤーやNPCのチャットメッセージや吹き出しを翻訳できます。対応言語には Pirate、Urianger、Leet、Pig Latin、Turkey が含まれます。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/kalilistic/SillyChat",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Simple Tweaks Plugin",
+      "author": "Caraxi",
+      "description": "A collection of Quality of Life tweaks. Aiming to improve the experience without changing anything drastically. All changes are toggleable, with everything disabled by default. Visit the Repo for a full list of tweaks. (Globe icon below)\\",
+      "href": "https://github.com/Caraxi/SimpleTweaksPlugin",
+      "descriptionJa": "利便性を高める各種の小さな調整のコレクションです。大きく変更することなくゲーム体験を改善することを目指しており、すべての変更は切り替え可能で、デフォルトではすべて無効になっています。完全な調整一覧はリポジトリ（下の地球アイコン）をご覧ください。",
+      "downloadCount": 114091,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "4",
+      "popularityLabel": "非常に人気",
+      "popularityClass": "popularity-4",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/Caraxi/SimpleTweaksPlugin",
+        "pushedAt": "2026-06-16T10:41:27Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "Dalamud向けのプラグインで、少量のコードで小さな追加機能を作るために始まり、ゲームプレイの品質向上を目的とした小さな変更を提供することを目指す。",
+          "featuresJa": [
+            "READMEには個別の具体的な機能の記載なし。詳細な変更点はリポジトリ内のTweaks.md（Tweak List）を参照するよう記載されている。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud（READMEに明記あり）"
+          ],
+          "cautionsJa": [
+            "READMEに特記なし。非公式のサードパーティ製プラグインであるため使用は自己責任。自動化・戦闘補助・外部通信・権限に関わる機能はゲーム規約に抵触する可能性があるため注意すること。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "SkillSwap",
+      "author": "ocealot",
+      "description": "Create animation replacement mods for Textools or Penumbra. Icon by PAPACHIN",
+      "href": "https://github.com/0ceal0t/SkillSwap",
+      "descriptionJa": "TextoolsまたはPenumbra用のアニメーション差し替えMODを作成します。アイコン: PAPACHIN",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/0ceal0t/SkillSwap",
+        "pushedAt": "2023-10-20T03:05:49Z",
+        "archived": false,
+        "repoDescription": "XIVQuickLauncher plugin for creating animation replacement mods",
+        "summary": {
+          "purposeJa": "アニメーション置換モッドを作成するためのXIVQuickLauncherプラグイン。作成したモッドはTextools modpackまたはPenumbraモッドとしてエクスポートできる。",
+          "featuresJa": [
+            "ゲーム内アニメーション置換用のモッドを作成できる（.tmb/.pap等の差し替えを目的としたモッドを作成）",
+            "作成したモッドをTextools modpack形式またはPenumbraモッド形式でエクスポートできる",
+            "プラグインのメニューを開いて差し替え作業を行える（メニューは /skillswap で開く）",
+            "一部のアニメーションIDを自動的にリネームして競合を防ぐ機能（ただし時々動作しない場合がある）",
+            "問題がある場合の代替手段としてVFXEditorを用いて.tmbおよび.papファイルを手動で差し替えられる（README記載）"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/xlplugins",
+            "/skillswap"
+          ],
+          "dependenciesJa": [
+            "XIVQuickLauncher (FFXIVQuickLauncher)",
+            "Textools（エクスポート形式として言及）",
+            "Penumbra（エクスポート形式として言及）"
+          ],
+          "cautionsJa": [
+            "移動系アクション（ジャンプ、ダッシュ、バックフリップ等）は変更しないこと。READMEでは“検出される可能性がある”としており、特に変更を避けるよう繰り返し注意がある。",
+            "一部のアクションの組み合わせは構造が一致せず差し替えできない場合がある（例：あるアクションには.papが関連付くが別のアクションにはない等）",
+            "自動リネーム機能が正しく動作しない場合がある。その場合はVFXEditorで.tmb/.papを手動で差し替え、必要に応じてpapのアニメーションIDを手動で変更する必要がある（READMEに明記）"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Sonar",
+      "author": "Sonar Team",
+      "description": "Automatically send and receive hunt and fate relays. /sonar to open, /sonarconfig to configure. This plugin is closed source and support is only provided in the Sonar Support discord.",
+      "href": "https://discord.gg/K7y24Rr",
+      "descriptionJa": "ハントとフェイトのリレーを自動で送受信します。/sonarで開き、/sonarconfigで設定します。このプラグインはクローズドソースで、サポートはSonar Support discordでのみ提供されます。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Sound Filter",
+      "author": "ascclemens",
+      "description": "Filters any sound or set of sounds from the game. - Remove a battle sound effect you don’t like - Remove specific emote sounds - Remove specific background music Icons: filter by Kirby Wu from the Noun Project and Sound by Gregor Cresnar from the Noun Project",
+      "href": "https://git.sr.ht/jkcclemens/SoundFilter",
+      "descriptionJa": "Sound Filterはゲーム内の任意の音声または音の集合をフィルタリングします。たとえば、気に入らない戦闘効果音を消す、特定のエモート音を消す、特定の背景音楽を消すことができます。アイコン: filter by Kirby Wu from the Noun Project and Sound by Gregor Cresnar from the Noun Project",
+      "downloadCount": 3237,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "SoundSetter",
+      "author": "karashiiro",
+      "description": "A Dalamud plugin that allows volume control from anywhere, including gpose and cutscenes.",
+      "href": "https://github.com/karashiiro/SoundSetter",
+      "descriptionJa": "gposeやカットシーンを含む、どこからでも音量を制御できるDalamudプラグイン。",
+      "downloadCount": 9627,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/karashiiro/SoundSetter",
+        "pushedAt": "2026-05-03T01:33:18Z",
+        "archived": false,
+        "repoDescription": "A Dalamud plugin that allows volume control from anywhere, including gpose and cutscenes.",
+        "summary": {
+          "purposeJa": "ゲーム内外（gposeやカットシーンを含む）から音量を調整できるDalamudプラグイン。",
+          "featuresJa": [
+            "どこからでも音量を操作できる（gposeやカットシーンを含む）。",
+            "ゲームのマスター音量を指定量だけ増減できる。",
+            "ゲームのBGM音量を指定量だけ増減できる。",
+            "ゲームのSFX音量を指定量だけ増減できる。",
+            "ゲームのボイス音量を指定量だけ増減できる。",
+            "ゲームのシステム音量を指定量だけ増減できる。",
+            "ゲームの環境音（ambient）音量を指定量だけ増減できる。",
+            "ゲームのパフォーマンス音量を指定量だけ増減できる。",
+            "プラグイン設定画面を開閉できる（設定画面から操作可能）。"
+          ],
+          "settingsJa": [
+            "プラグイン設定を開閉する（/soundsetterconfig、/ssconfig が設定関連コマンドとして存在する）。",
+            "Ctrl+K が設定画面を開くデフォルトのキー割り当てで、プラグイン設定で変更可能。",
+            "タイトル画面では無効（READMEのRemarksに記載された動作）。"
+          ],
+          "commandsJa": [
+            "/soundsetterconfig - Opens/closes the plugin configuration.",
+            "/ssconfig - Alias for /soundsetterconfig",
+            "/ssmv +/-amount: Adjust the game's master volume by the specified quantity.",
+            "/ssbgm +/-amount: Adjust the game's BGM volume by the specified quantity.",
+            "/sssfx +/-amount: Adjust the game's SFX volume by the specified quantity.",
+            "/ssv +/-amount: Adjust the game's voice volume by the specified quantity.",
+            "/sssys +/-amount: Adjust the game's system sound volume by the specified quantity.",
+            "/ssas +/-amount: Adjust the game's ambient sound volume by the specified quantity.",
+            "/ssp +/-amount: Adjust the game's performance volume by the specified quantity.",
+            "Ctrl+K - Default keybind for opening the plugin configuration (changeable in the plugin configuration)."
+          ],
+          "dependenciesJa": [
+            "Dalamud (https://github.com/goatcorp/Dalamud)"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載なし。非公式プラグインのため、自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Teleporter",
+      "author": "Pohky",
+      "description": "Adds Chat Commands to Teleport to Aetherytes or Areas by Name. e.g. /tp Quarrymill or /tpm South Shroud Supports setting up an Alias for Aetherytes to be used with Teleporter Commands e.g. /tp home instead of /tp Estate Hall (Free Company)",
+      "href": "https://github.com/pohky/TeleporterPlugin",
+      "descriptionJa": "チャットコマンドを追加し、名前でAetherytesやエリアへテレポートできるようにします。例: /tp Quarrymill や /tpm South Shroud。また、Teleporterのコマンドで使用するAetheryteのエイリアスを設定でき、例えば /tp home を /tp Estate Hall (Free Company) の代わりに使えます。",
+      "downloadCount": 33968,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/pohky/TeleporterPlugin",
+        "pushedAt": "2026-05-02T13:40:26Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "READMEに明記なし",
+          "featuresJa": [
+            "READMEに明記なし"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載がREADMEにないため、非公式プラグインは自己責任で使用してください。"
+          ],
+          "confidence": "低"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Text Box Styler",
+      "author": "ascclemens",
+      "description": "Allows replacing every text box with the background of your choice.",
+      "href": "https://git.sr.ht/~jkcclemens/TextBoxStyler",
+      "descriptionJa": "すべてのテキストボックスの背景を任意の背景に置き換えることができます。",
+      "downloadCount": 5368,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "TextToTalk",
+      "author": "karashiiro",
+      "description": "Chat TTS. Use /tttconfig to configure the enabled channels and triggers/exceptions.",
+      "href": "https://github.com/karashiiro/TextToTalk",
+      "descriptionJa": "チャットのTTSです。/tttconfigを使って、有効にするチャンネルとトリガー／例外を設定してください。",
+      "downloadCount": 6541,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/karashiiro/TextToTalk",
+        "pushedAt": "2026-08-12T01:03:23Z",
+        "archived": false,
+        "repoDescription": "Chat TTS plugin for Dalamud. Has support for triggers/exclusions, several TTS providers, and more!",
+        "summary": {
+          "purposeJa": "Dalamud用のチャットTTS（テキスト読み上げ）プラグイン。チャットの発言やダイアログを音声で再生する機能を提供する。",
+          "featuresJa": [
+            "チャットメッセージをTTSで読み上げする。",
+            "トリガーと除外をサポートし、読み上げ対象を制御できる（READMEに記載）。",
+            "複数のTTSプロバイダに対応：System（Windows）、Megaphone、Websocket、AWS Polly、Azure（Microsoft Cognitive Services）、Google Cloud、ElevenLabs、OpenAI、Fish Audio、Kokoro、Uberduck。",
+            "カスタム辞書（Lexicons）をサポートし、単語の発音を変更できる（コミュニティ辞書のディスカッションへの案内あり）。",
+            "設定ウィンドウを開くコマンドでGUIの設定画面を表示できる。",
+            "TTSの有効/無効切替や全キューのキャンセルがコマンドで可能（/toggletts、/disabletts、/enabletts、/canceltts）。",
+            "任意でWebSocketサーバーを起動してメッセージを送受信できる。送受信するJSON形式のメッセージタイプは Say、Cancel、Event がある（READMEにサンプルあり）。",
+            "NPCや戦闘のダイアログを“ダイアログセッション”として扱う。セッションはNPC/戦闘ダイアログ到着やTalk/BattleTalkアドオンが表示されたときに開始し、ダイアログ信号が3フレーム連続で存在しないと終了、またはテリトリーチェンジ／ログアウト／プラグイン停止で直ちに終了する（READMEに記載）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/tttconfig: 設定ウィンドウを開く。",
+            "/canceltts: キュー中の全TTSメッセージをキャンセルする。",
+            "/toggletts: TTSをオン/オフ切替する。",
+            "/disabletts: TTSをオフにする。",
+            "/enabletts: TTSをオンにする。"
+          ],
+          "dependenciesJa": [
+            "Dalamud"
+          ],
+          "cautionsJa": [
+            "READMEに外部通信に関する記載あり：任意でWebSocketサーバーを起動してメッセージを提供できる。送受信されるメッセージはJSON形式（Say、Cancel、Event）のサンプルがREADMEにあるため、プラグインが外部ソースと通信する可能性がある点に留意すること。",
+            "READMEには自動化・戦闘補助・権限に関する記載は明記されていない。非公式プラグインである点については一般的な注意（自己責任での利用など）を留意のこと。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "The Great Separator",
+      "author": "ascclemens",
+      "description": "Add separators to various numbers. - Damage/healing numbers (not DoTs or other players’ numbers) - Party list HP - Ability costs on hotbars - Ability costs in tooltips",
+      "href": "",
+      "descriptionJa": "The Great Separatorは、さまざまな数値に区切りを追加します。対象はダメージ／回復量（DoTsや他プレイヤーの数値は除く）、パーティリストのHP、ホットバー上のアビリティのコスト、ツールチップ内のアビリティのコストです。",
+      "downloadCount": 14316,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Title Edit",
+      "author": "attick & perchbird",
+      "description": "Create your own custom title screen of your favorite location in-game, and open the game right up to that spot every time. Includes a number of preinstalled title screens for you to use or get inspiration from, and an easy to use importer to use title screens that others have shared!",
+      "href": "https://github.com/lmcintyre/TitleEditPlugin",
+      "descriptionJa": "ゲーム内のお気に入りの場所で独自のカスタムタイトル画面を作成し、毎回ゲームを起動したときにその場所で開くことができます。複数のプリインストール済みタイトル画面が含まれており、それらをそのまま使用したり参考にしたりでき、他の人が共有したタイトル画面を取り込むための使いやすいインポーターも備えています。",
+      "downloadCount": 10836,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/lmcintyre/TitleEditPlugin",
+        "pushedAt": "2024-07-03T16:26:59Z",
+        "archived": true,
+        "repoDescription": "Dalamud plugin for changing the title screen and lobby.",
+        "summary": {
+          "purposeJa": "ゲーム内のタイトル画面を変更できるプラグイン。ユーザー自身で作成したカスタムタイトル画面を使用できる。詳細はゲーム内のプラグインインストーラを参照するようREADMEに記載あり。",
+          "featuresJa": [
+            "ゲーム内タイトル画面の表示内容を変更することができる。",
+            "ユーザーが作成したカスタムタイトル画面をゲーム内で使用できる。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに安全性、自動化、外部通信、権限に関する記載はないため、非公式プラグインとして自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Tourist",
+      "author": "ascclemens",
+      "description": "Tourist adds a window to assist with the sightseeing log. - Show when sightseeing log vistas are available - Add markers for ARR vistas - Open vista locations on your map - Hide already completed or unavailable vistas - Show the command needed for each vista Icon: sightseeing by muhammad from the Noun Project",
+      "href": "https://git.sr.ht/~jkcclemens/Tourist",
+      "descriptionJa": "Touristは観光手帳を補助するウィンドウを追加します。観光手帳のビスタが利用可能かどうかを表示し、ARRのビスタにマーカーを追加し、地図上でビスタの位置を開き、既に達成済みまたは利用できないビスタを非表示にし、各ビスタに必要なコマンドを表示します。アイコン: sightseeing by muhammad from the Noun Project",
+      "downloadCount": 14678,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "TriadBuddy",
+      "author": "MgAl2O4",
+      "description": "Triple triad solver, NPC matches only. - highlights next move during mini game - evaluates all deck presets before match - deck optimizer for NPC - adds more details to card collection window",
+      "href": "https://github.com/MgAl2O4/FFTriadBuddyDalamud",
+      "descriptionJa": "TriadBuddyはTriple Triadのソルバーで、NPC戦のみ対応します。ミニゲーム中に次の手をハイライト表示し、対戦前にすべてのデッキプリセットを評価し、NPC向けのデッキ最適化を行い、カードコレクションウィンドウにより詳細な情報を追加します。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/MgAl2O4/FFTriadBuddyDalamud",
+        "pushedAt": "2026-05-08T20:49:56Z",
+        "archived": false,
+        "repoDescription": "Dalamud plugin for TriadBuddy",
+        "summary": {
+          "purposeJa": "Triple Triad（トリプルトリアド）のソルバーを提供するDalamudプラグイン。NPC戦のみ対応し、動作にはmodding frameworkに対応したカスタムゲームランチャーが必要と明記されている。",
+          "featuresJa": [
+            "次の一手をハイライトする（PvPでは利用不可と明記）",
+            "対NPC戦のために試合前にデッキを最適化する",
+            "所持していない（不足している）カードを見つけやすくする（コレクション表示の説明あり）"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "Dalamud（プラグイン実行環境として言及）",
+            "カスタムゲームランチャー（modding framework対応） — https://github.com/goatcorp/FFXIVQuickLauncher",
+            "スタンドアロングツール（別リポジトリ、参照用） — https://github.com/MgAl2O4/FFTriadBuddy"
+          ],
+          "cautionsJa": [
+            "プラグインはNPCデッキに基づくソルバーであり、トーナメントやPvPでは予測が無意味になると明記されている（PvP／トーナメントはサポート外）",
+            "READMEの記載では、PvPチェックをオフにしてコードを改変できるが、それでも予期しないカードに対する正しい予測は行えないため、真のPvP対応にはソルバーの全面的な作り直しが必要であると警告している",
+            "動作にはmodding framework対応のカスタムランチャーが必要と明記されている（公式ランチャーに関する記載はREADMEに明記なし）",
+            "READMEに自動化・戦闘補助・外部通信・権限に関する具体的な注意はないため、非公式プラグインである点を認識した上で自己責任で使用することを短く注意"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "VFXEditor",
+      "author": "ocealot",
+      "description": "View and modify vfxs, as well as create mods for them. Icon by PAPACHIN",
+      "href": "https://github.com/0ceal0t/Dalamud-VFXEditor",
+      "descriptionJa": "vfxsを表示・編集し、それらのmodsを作成できます。アイコンはPAPACHINによるものです。",
+      "downloadCount": 8675,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/0ceal0t/Dalamud-VFXEditor",
+        "pushedAt": "2026-08-14T00:57:21Z",
+        "archived": false,
+        "repoDescription": "VFX, animation, sound, and physics editing plugin for FFXIV",
+        "summary": {
+          "purposeJa": "Dalamud用のVFX、アニメーション、サウンド、物理挙動を編集するプラグイン。",
+          "featuresJa": [
+            ".avfxファイルを編集してパーティクルや発光などのVFXを変更できる（README: 「VFXs, such as particles and glow effects. Has no impact on a character's motion」）。",
+            ".papファイルを編集してキャラクターのアニメーション（武器を振る、笑顔など）を変更できる。",
+            ".tmbファイル（VFX、アニメーション、サウンドをいつ発動するかのタイムライン）を編集してスキルを丸ごと置き換えられる。",
+            ".scdファイルのサウンド（BGM、効果音）を編集できる。",
+            ".eidファイルのバインドポイントを編集してVFXをキャラクターモデルに付けられる。",
+            ".uldファイルを編集してUI要素のレイアウトを変更できる。",
+            ".atexファイルを編集して.avfx用のテクスチャを扱える。",
+            ".texファイルを編集してUI要素やゲームモデル用のテクスチャを扱える。",
+            ".atchファイルを編集して武器やアクセサリ（例: マシニストのバッグ、占星術師のカード）用の取り付け点を変更できる。",
+            ".sklbファイルを編集してスケルトンやボーン定義を変更できる。",
+            ".skpファイルを編集してIKなどのスケルトンパラメータを変更できる。",
+            ".shpkファイル（頂点・ピクセルシェーダのバンドル）を編集できる。",
+            ".shcdファイル（個別のシェーダ）を編集できる。",
+            ".mtrlファイルを編集してモデルのマテリアルを変更できる。",
+            ".mdlファイルを編集してメッシュを扱える。",
+            "プラグイン上で「Loaded Vfx」（使用する新しいエフェクト）と「Vfx Being Replaced」（上書き対象）を選び、変更を行ってから「UPDATE」を押すことで置き換えを適用できる（READMEのUsage手順）。",
+            "ベータ版リポジトリを追加してベータビルドを導入できる（READMEのBeta Builds手順）。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/vfxedit を使ってプラグインを開く（README: \"Once installed, open with /vfxedit\"）。",
+            "/vfxbeta を使ってベータ版を開く（README: \"Open the beta version using /vfxbeta\"）。"
+          ],
+          "dependenciesJa": [
+            "XIV Quick Launcher（プラグインを動かすために必要、READMEに明記）"
+          ],
+          "cautionsJa": [
+            "READMEに特定の自動化・戦闘補助・外部通信・権限に関する注意は明記されていません。一般的な注意: 非公式プラグインの使用は自己責任です。ゲームの利用規約や運営の規定に従ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Visibility",
+      "author": "Dragon",
+      "description": "Allows you to hide players, pets chocobos and minions. Includes VoidList, which is a better blacklist. Accessible via /pvis More information available via /xlhelp",
+      "href": "https://github.com/SheepGoMeh/VisibilityPlugin",
+      "descriptionJa": "プレイヤー、ペット、チョコボ、ミニオンを非表示にできます。VoidList（より優れたブラックリスト）を含みます。/pvisでアクセスでき、詳しくは/xlhelpをご覧ください。",
+      "downloadCount": 17262,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/SheepGoMeh/VisibilityPlugin",
+        "pushedAt": "2026-04-29T22:26:30Z",
+        "archived": false,
+        "repoDescription": "Dalamud plugin to allow for quality of life changes for player and pet visibility.",
+        "summary": {
+          "purposeJa": "プレイヤー、ペット、チョコボの表示を制御し、狩りや主要な街でのフレームレート低下を軽減し、利便性を向上させること。VoidListというブラックリスト機能を含む。",
+          "featuresJa": [
+            "プレイヤーを非表示にできる。",
+            "ペットを非表示にできる。",
+            "チョコボを非表示にできる。",
+            "非表示対象のプレイヤーをパーティ・フレンド・フリーカンパニー・死亡状態でフィルタリングできる。",
+            "チョコボとペットをパーティ・フレンド・フリーカンパニーでフィルタリングできる。",
+            "VoidList（ブラックリスト）を使ってプレイヤーを管理できるGUIがある。",
+            "狩りや主要な街でフレームレート低下を抑え、品質向上を図る（READMEの記載）",
+            "自身のプレイヤーが消えた場合はRefresh機能で復帰できる（既知の問題として記載）",
+            "ゲーム内でGUIを表示するコマンド（/pvis）を使用して設定画面を開ける（READMEに記載）"
+          ],
+          "settingsJa": [
+            "非表示対象のフィルタ：パーティ、フレンド、フリーカンパニー、死亡（プレイヤー向け）（READMEに明記）",
+            "チョコボ/ペットのフィルタ：パーティ、フレンド、フリーカンパニー（READMEに明記）",
+            "VoidList管理用GUI（追加/削除）（READMEに明記）",
+            "Refresh機能（自身のプレイヤーが消えた場合に使用）（READMEに明記）"
+          ],
+          "commandsJa": [
+            "/pvis — GUIを開く（README: \"Type /pvis to pull up a GUI for editing active combo replacements.\" の記載あり）",
+            "/pvis help — 追加コマンド表示（READMEに記載）",
+            "/void firstname lastname worldname reason — 手動でプレイヤーをVoidListに追加（READMEに記載）",
+            "/voidtarget reason — ターゲット中のプレイヤーをVoidListに追加（READMEに記載）"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載はないため、非公式プラグインである点は注意して自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "Waymark Preset Plugin",
+      "author": "PunishedPineapple",
+      "description": "Allows you to save, edit, place, import, export, and preview an unlimited number of waymark presets.",
+      "href": "https://github.com/PunishedPineapple/WaymarkPresetPlugin",
+      "descriptionJa": "無制限のウェイマークプリセットを保存・編集・配置・インポート・エクスポート・プレビューできます。",
+      "downloadCount": 13077,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/PunishedPineapple/WaymarkPresetPlugin",
+        "pushedAt": "2023-05-28T07:20:17Z",
+        "archived": true,
+        "repoDescription": "Dalamud/XIVLauncher plugin to manage waymark presets.",
+        "summary": {
+          "purposeJa": "XIVLauncher/Dalamud用の、無制限のウェイマークプリセットを保存・管理するプラグイン。",
+          "featuresJa": [
+            "ゲーム本体とは別に管理されるライブラリに無制限のウェイマークプリセットを保存できる",
+            "チャットで /pwaymark と入力してメインGUIを開く",
+            "ゲームの5つのスロットからプリセットをライブラリへコピーしてインポートできる（UIの1-5ボタン）",
+            "Paisley Park JSON形式を使う他のプログラムやユーザーからのプリセットをテキスト貼り付けでインポートできる（無効なデータは取り込まれない）",
+            "ライブラリ内のプリセットはデフォルトで適用ゾーンごとにグループ表示される",
+            "プリセットを選択すると座標、ゾーン、最終更新時刻が表示される",
+            "選択プリセットをゲームの5つのスロットへコピーするボタンがあり、対応スロットを上書きできる",
+            "Map Viewボタンでゾーンマップ上にウェイマークを表示し、エディタを開いているときはマップ上でアイコンをドラッグできる",
+            "プリセットのエクスポート・編集（各ウェイマークの座標、アクティブ/非アクティブ、適用ゾーンの編集）・削除が可能",
+            "v1.0.0.0でライブラリからプリセットを直接配置する機能（ボタンとテキストコマンド）を追加",
+            "v1.1.0.0で現在のウェイマークをライブラリへ直接保存するボタンを追加",
+            "直接配置機能はインスタンス種別や戦闘中でないことなどゲーム側の多くのチェックを行うが、プリセットのゾーンと現在地の一致はチェックしない",
+            "マップビューの既知の制限：複数マップのダンジョン/レイドではすべてのマップにアクティブなウェイマークが表示される、でこぼこ地形でドラッグすると高さが地面に合わせられずゲームで配置できないウェイマークが作成される可能性がある"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/pwaymark — メインGUIを開く",
+            "直接配置用のテキストコマンドはREADMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "XIVLauncher/Dalamud（このプラグインはXIVLauncher/Dalamud向け）",
+            "Paisley Park JSON形式のプリセットを受け付ける（インポート対応）",
+            "Em-Sixのプリセットコレクション（取得先の例としてREADMEに言及）",
+            "Dalamud Plugin Installerおよびhttps://github.com/goatcorp/DalamudPluginsD17（メンテナンス中のフォーク確認先としてREADMEに言及）"
+          ],
+          "cautionsJa": [
+            "このリポジトリではもはやメンテされていない。インゲームのDalamud Plugin Installerか指定のプラグイン一覧でどのフォークがメンテされているか確認すること（README冒頭）",
+            "2022-09-12時点で、SEは範囲外（OOB）ウェイマークを置いたプレイヤーに対して措置を取っている。OOBを含む可能性のあるプリセットの配置は注意すること（READMEに明記）",
+            "本プラグインは公式APIを通さずゲーム内部へ踏み込んで動作する。SEに発見されて処罰される可能性や、予期せぬ不具合が起きる可能性があるため使用は自己責任である（READMEに明記）",
+            "直接配置機能はインスタンス種別や戦闘中でないことなど多くのチェックを行うが、プリセットのゾーンと現在地の一致はチェックしない（READMEに明記）",
+            "マップビューでのドラッグ編集は複数マップやでこぼこ地形で期待通りにならない（高さが不適切になる等）（READMEに明記）"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "WOLdo",
+      "author": "Haplo064",
+      "description": "Movable text overlay of the current location name.",
+      "href": "https://github.com/Haplo064/WheresWOLdo",
+      "descriptionJa": "現在のロケーション名を表示する、移動可能なテキストオーバーレイ。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "https://github.com/Haplo064/WheresWOLdo",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "Window Title Changer",
+      "author": "Azure Gem",
+      "description": "Allows you to change your game window title",
+      "href": "https://github.com/rreminy/FFXIV.WinTitle",
+      "descriptionJa": "ゲームウィンドウのタイトルを変更できます。",
+      "downloadCount": 0,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "1",
+      "popularityLabel": "少数・新着",
+      "popularityClass": "popularity-1",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/rreminy/FFXIV.WinTitle",
+        "pushedAt": "2026-04-30T20:31:24Z",
+        "archived": false,
+        "repoDescription": "Allows you to change the FFXIV window title.",
+        "summary": {
+          "purposeJa": "FFXIVのウィンドウタイトルを変更するためのプラグイン。",
+          "featuresJa": [
+            "ゲームウィンドウのタイトルを任意の文字列に変更できる。",
+            "/wintitle コマンドを引数なしで実行するとウィンドウタイトルを元のタイトルに戻せる。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "/wintitle [title] — タイトルを指定してウィンドウタイトルを変更する。引数なしで実行すると元のタイトルに戻る。"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "READMEに自動化・戦闘補助・外部通信・権限に関する記載はないため、非公式プラグインは自己責任で使用してください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "ezWondrousTails",
+      "author": "daemitus",
+      "description": "This plugin prints the probability of getting a row in Wondrous Tails to the in-game display along with the average probability of what would happen if you shuffled.",
+      "href": "https://github.com/daemitus/WondrousTailsSolver",
+      "descriptionJa": "このプラグインは、Wondrous Tailsで列が揃う確率をゲーム内表示に出力し、シャッフルした場合に平均的にどうなるかの確率も併せて表示します。",
+      "downloadCount": 28246,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/daemitus/WondrousTailsSolver",
+        "pushedAt": "2025-12-19T21:05:04Z",
+        "archived": true,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "Dalamudプラグインで、Wondrous Tailsの表示に各行の確率を追加して表示すること。",
+          "featuresJa": [
+            "Wondrous Tails表示に各行の確率を画面上に追加表示する。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "非公式プラグインです。利用は自己責任で行ってください。READMEに自動化・戦闘補助・外部通信・権限に関する記載はありません。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "XIVChat Server",
+      "author": "ascclemens",
+      "description": "XIVChat is a suite of software allowing you to use FFXIV’s chat from different devices. This is the server component required to do so. For information about clients to use with this server, see the website.",
+      "href": "https://xiv.chat/",
+      "descriptionJa": "XIVChatは、FFXIVのチャットをさまざまなデバイスから利用できるようにするソフトウェア一式です。これはそのために必要なサーバーコンポーネントです。このサーバーと共に使用するクライアントに関する情報はウェブサイトをご覧ください。",
+      "downloadCount": 3430,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": false,
+        "url": "",
+        "summary": null,
+        "checkedAt": "2026-08-15",
+        "note": "GitHubリポジトリのREADMEを確認できませんでした。開発元の配布ページ・READMEを優先してください。"
+      }
+    },
+    {
+      "name": "XIV Combo",
+      "author": "attick",
+      "description": "This plugin condenses combos and mutually exclusive abilities onto a single button. /pcombo to open menu",
+      "href": "https://github.com/attickdoor/XivComboPlugin",
+      "descriptionJa": "このプラグインはコンボと互いに排他的なアビリティを単一のボタンに集約します。メニューを開くには /pcombo を使用してください。",
+      "downloadCount": 39183,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "3",
+      "popularityLabel": "人気",
+      "popularityClass": "popularity-3",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/attickdoor/XivComboPlugin",
+        "pushedAt": "2026-08-09T11:38:41Z",
+        "archived": false,
+        "repoDescription": "Plugin version of the icon replacement features in dalamud",
+        "summary": {
+          "purposeJa": "コンボと相互排他のアビリティを単一ボタンにまとめ、ワンボタンでのコンボチェーンやボタン統合による利便性向上を提供する。",
+          "featuresJa": [
+            "コンボと相互排他のアビリティを単一ボタンに凝縮し、ワンボタンのコンボチェーンを可能にする。",
+            "ほとんどのウェポンスキルコンボを単一ボタンにまとめる。",
+            "Hypercharge が Overheated のとき Heat Blast に変わる。",
+            "Pictomancer の Motifs と Muses を統合する。",
+            "特定のジョブではホットバーの空きスペースを大幅に節約できる（READMEでDRGを例示）。",
+            "能力リストから名前付きアビリティをホットバーにドラッグして使用でき、配置したアビリティが自動で別のアビリティに置き換わる（例：Souleater を配置すると自動で Hard Slash に変わる）。"
+          ],
+          "settingsJa": [
+            "/pcombo でアクティブなコンボ置換を編集する GUI を開く。",
+            "個別のコンボはチェックボックスで有効化する（例: Souleater のコンボを有効にする）。",
+            "ホットバーにアビリティを配置した後は「Save and close」を必ず押す（単にウィンドウを閉じるだけではダメ）。"
+          ],
+          "commandsJa": [
+            "/xlplugins — ゲーム内でプラグインのインストーラとアップデータにアクセスするためのコマンド（README: \"Type /xlplugins in-game to access the plugin installer and updater.\"）。",
+            "/pcombo — アクティブなコンボ置換を編集する GUI を開くためのコマンド（README: \"Type /pcombo to pull up a GUI for editing active combo replacements.\"）。"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "既知の問題を発見した場合は、プラグインインストーラの Dalamud Feedback 機能を使ってフィードバックを送るよう README に記載あり。",
+            "README に自動化・戦闘補助・外部通信・権限に関する注意の明記はなし。非公式プラグインの利用は自己責任で行ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    },
+    {
+      "name": "ZodiacBuddy",
+      "author": "daemitus",
+      "description": "This plugin attempts to help you complete your Zodiac weapon in various ways.",
+      "href": "https://github.com/daemitus/ZodiacBuddy",
+      "descriptionJa": "このプラグインは、さまざまな方法であなたのZodiac武器の完成を支援しようとします。",
+      "downloadCount": 2749,
+      "downloadSource": "https://goatcorp.github.io/DalamudPlugins/plugins.html",
+      "downloadLabel": "公式一覧のDownloadCount",
+      "popularity": "2",
+      "popularityLabel": "一定の利用",
+      "popularityClass": "popularity-2",
+      "githubResearch": {
+        "confirmed": true,
+        "url": "https://github.com/daemitus/ZodiacBuddy",
+        "pushedAt": "2026-07-16T04:44:24Z",
+        "archived": false,
+        "repoDescription": "",
+        "summary": {
+          "purposeJa": "ARRのレリック体験をやや簡単にします。",
+          "featuresJa": [
+            "書籍（books）でリーヴをクリックすると、便利なテレポートとショートカットを追加する。",
+            "クリックしたリーヴクエストに最も近いエーテライトへテレポートする。",
+            "ダンジョンをクリックすると、その特定のダンジョンに対してコンテンツファインダー（Duty Finder）を開く。"
+          ],
+          "settingsJa": [
+            "READMEに明記なし"
+          ],
+          "commandsJa": [
+            "READMEに明記なし"
+          ],
+          "dependenciesJa": [
+            "READMEに明記なし"
+          ],
+          "cautionsJa": [
+            "非公式プラグインです。使用は自己責任で、ゲームの利用規約やサーバー規則に従ってください。"
+          ],
+          "confidence": "高"
+        },
+        "checkedAt": "2026-08-15"
+      }
+    }
+  ],
+  "translation": {
+    "language": "ja",
+    "model": "gpt-5-mini",
+    "translatedAt": "2026-08-15",
+    "initialDisplay": "ja",
+    "sourceField": "description"
+  },
+  "downloadNote": "公式pluginmaster.jsonのDownloadCount。取得日 2026-08-15。値の定義・更新頻度は公式側の仕様に依存します。",
+  "popularityThresholds": [
+    {
+      "level": "4",
+      "label": "非常に人気",
+      "min": 50000
+    },
+    {
+      "level": "3",
+      "label": "人気",
+      "min": 10000
+    },
+    {
+      "level": "2",
+      "label": "一定の利用",
+      "min": 1000
+    },
+    {
+      "level": "1",
+      "label": "少数・新着",
+      "min": 0
+    }
+  ],
+  "githubResearchNote": "GitHubリポジトリのREADMEとメタデータを調査時点で確認した内容です。READMEにない設定や機能は推測で補っていません。"
+}

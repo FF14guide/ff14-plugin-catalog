@@ -1,0 +1,12 @@
+{
+  "name": "ff14-plugin-catalog",
+  "private": true,
+  "description": "XIVLauncher/Dalamud プラグインの日本語カタログ（静的サイト）",
+  "scripts": {
+    "update": "node scripts/fetch.js && node scripts/merge.js && node scripts/icons.js && node scripts/merge_ja.js && node scripts/merge_manus.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

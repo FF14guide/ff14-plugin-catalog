@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers（静的アセット配信）。サーバー側のコードは無い。
+  // `node scripts/build.js` で生成した dist/ をそのまま配る。
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ff14-plugin-catalog",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

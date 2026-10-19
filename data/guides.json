@@ -1,0 +1,943 @@
+{
+ "commonNotice": "本ページは外部ツールの導入を無条件に推奨するものではありません。FFXIV公式の案内では外部ツールの使用は一切禁止とされており、導入・使用は利用規約、アカウント、PCセキュリティへのリスクを理解したうえで各自が判断してください。",
+ "tools": {
+  "act": {
+   "id": "act",
+   "eyebrow": "03—A / COMBAT LOG",
+   "title": "ACT — 戦闘ログを読む基盤",
+   "lead": "ACT本体からFFXIV ACT Plugin、OverlayPluginまで。何がログを読み、何が表示を担当するのかを分けて理解するページ。",
+   "role": "戦闘ログを収集・集計し、DPSや被ダメージなどを後から確認するためのデスクトップアプリケーション。FF14では専用プラグインを組み合わせて使う構成です。",
+   "forWhom": "自分のプレイを振り返りたい人。ただし、他者への数値提示やログ共有はコミュニティ上のトラブルにつながるため、合意と配慮が必要です。",
+   "stack": [
+    "ACT本体",
+    "FFXIV ACT Plugin",
+    "OverlayPlugin",
+    "任意のオーバーレイ"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "環境を確認する",
+     "body": "64-bit Windows、.NET Framework、Visual C++ランタイムなど、現在の配布元が示す要件を確認します。Windowsの時刻ずれはタイムラインやトリガーの挙動に影響することがあるため、導入前に時刻同期も確認します。",
+     "checks": [
+      "公式・開発元の配布先から取得する",
+      "zip／インストーラーの出所と更新日を確認する",
+      "セキュリティソフトの除外は最後の手段にする"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "ACT本体を配置する",
+     "body": "Advanced Combat Trackerの公式配布ページから本体を取得し、専用フォルダへインストールまたは展開します。起動できたら、Startup WizardのParsing Plugin欄からFFXIV用プラグインを追加します。",
+     "checks": [
+      "Plugins > Plugin ListingでFFXIV ACT Pluginが有効か確認",
+      "FFXIV SettingsのParse Optionsを確認",
+      "管理者起動はゲーム側との権限を揃える必要があるため、常用前に理由を確認"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "OverlayPluginを追加する",
+     "body": "ACTのGet PluginsからOverlayPluginを追加し、オーバーレイの表示枠を作ります。OverlayPluginは表示基盤であり、実際のタイムラインやメーターは別のオーバーレイやアドオンが担当します。導入後はACTを再起動します。",
+     "checks": [
+      "OverlayPluginのバージョンと対応状況を確認",
+      "表示枠が画面外に出ていないか確認",
+      "一度に複数の拡張を入れず、段階的に追加"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "ログや数値が更新されない",
+     "action": "FFXIV ACT Pluginの有効状態、対象プロセス、パッチ後の対応状況を確認します。古いプラグインを無理に使わず、開発元の更新を待ちます。"
+    },
+    {
+     "symptom": "OverlayPluginの画面が出ない",
+     "action": "OverlayPluginの表示チェック、オーバーレイの座標・サイズ、GPU／ブラウザコンポーネントのエラーを確認します。"
+    },
+    {
+     "symptom": "Deucalion関連のエラーが出る",
+     "action": "公式セットアップガイドと開発元の最新情報を優先し、Windows Defenderの除外をいきなり広げず、隔離履歴・ファイルの出所・権限を確認します。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Advanced Combat Tracker 公式サイト",
+     "href": "https://advancedcombattracker.com/",
+     "note": "ACT本体の配布元"
+    },
+    {
+     "label": "FFXIV ACT Setup Guide",
+     "href": "https://overlayplugin.github.io/docs/setup/",
+     "note": "ACT・FFXIV Plugin・OverlayPluginのセットアップ"
+    },
+    {
+     "label": "ACT導入完全ガイド — とらめも",
+     "href": "https://toramemoblog.com/act-install",
+     "note": "日本語の実用手順。2026/04更新表示"
+    },
+    {
+     "label": "FFXIV外部ツールの是非について",
+     "href": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/33dc2350ac49e2155dbc0c76ed2cdd78262e2f39",
+     "note": "公式方針"
+    }
+   ]
+  },
+  "launcher": {
+   "id": "launcher",
+   "eyebrow": "03—B / LAUNCHER",
+   "title": "XIVLauncher / Dalamud",
+   "lead": "起動アプリとプラグイン基盤を分けて理解する。XIVLauncherは入口、Dalamudはゲーム内拡張を読み込む基盤です。",
+   "role": "XIVLauncherはFFXIVの起動・認証・更新を補助するカスタムランチャー。DalamudはXIVLauncherから読み込まれるアドオン／プラグイン基盤です。",
+   "forWhom": "公式ランチャー以外の起動経路や、ゲーム内UI拡張の仕組みを調べたい人。ただし、公式サービスではなく、パッチ後に機能が停止する前提で考えます。",
+   "stack": [
+    "XIVLauncher",
+    "Dalamud",
+    "公式プラグインリポジトリ",
+    "必要に応じた開発者リポジトリ"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "公式リリースを確認する",
+     "body": "XIVLauncherの公式GitHubリリースからSetup.exeを取得します。第三者が再配布している実行ファイルではなく、開発元のリポジトリとリリース履歴を確認します。",
+     "checks": [
+      "アカウント認証情報を保存するかを判断",
+      "Windows Defenderの警告を無視する前に配布元を確認",
+      "公式FAQとサポートコミュニティを確認"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "Dalamudを有効化する",
+     "body": "初回設定でDalamudを有効化すると、ゲーム内でプラグインランチャーを開けるようになります。設定を飛ばした場合はXIVLauncherの歯車からEnable Dalamudを確認します。",
+     "checks": [
+      "/xlpluginsが開くかを確認",
+      "プラグインは最初にひとつだけ試す",
+      "UI表示・メモリ読み取り・ネットワークの役割を確認"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "パッチ後は待つ",
+     "body": "ゲーム本体の更新直後は、Dalamudや個別プラグインが未対応になることがあります。ランチャーが起動できても、プラグインが利用できるとは限りません。更新告知と各プラグインのリリース情報を確認します。",
+     "checks": [
+      "パッチ直後に古いDLLを手動で上書きしない",
+      "未対応プラグインを無効化して切り分ける",
+      "ログと再現条件を控えてから質問する"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "ゲーム内で/xlpluginsが開かない",
+     "action": "Dalamudの有効化、XIVLauncherの設定、ゲームの起動経路を確認します。設定変更後に再起動します。"
+    },
+    {
+     "symptom": "プラグインが一覧に出ない",
+     "action": "Dalamudの対応状況、リポジトリの登録、プラグインの対応パッチを確認します。非公式リポジトリはサポート範囲が限られます。"
+    },
+    {
+     "symptom": "起動後にすぐ落ちる",
+     "action": "/xllogやdalamud.logを確認し、直前に追加したプラグインを無効化して原因を特定します。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "XIVLauncher FAQ",
+     "href": "https://goatcorp.github.io/faq/xl_troubleshooting.html",
+     "note": "安全性・更新・ログイン・プラグインのFAQ"
+    },
+    {
+     "label": "Dalamud Getting Started",
+     "href": "https://dalamud.dev/faq/getting-started/",
+     "note": "Dalamud・プラグイン・XIVLauncherの公式ドキュメント"
+    },
+    {
+     "label": "XIVLauncher導入 — とらめも",
+     "href": "https://toramemoblog.com/xivlauncher-1",
+     "note": "日本語の実用手順。2025/12更新表示"
+    },
+    {
+     "label": "XIVLauncher GitHub",
+     "href": "https://github.com/goatcorp/FFXIVQuickLauncher/releases/latest",
+     "note": "公式リリース"
+    }
+   ]
+  },
+  "hojoring": {
+   "id": "hojoring",
+   "eyebrow": "03—C / ACT.HOJORING",
+   "title": "補助輪 — スぺスぺとウルスカ",
+   "lead": "タイマーとスカウターを同じ名前で混同しない。何を入力にし、何を画面へ出しているかから確認する。",
+   "role": "ACT.HojoringはFFXIV向けACTプラグインの詰め合わせ。SpecialSpellTimer（スぺスぺ）はログトリガーを使うタイマー、UltraScouter（ウルスカ）はターゲット情報や周囲の情報を表示するプラグインです。",
+   "forWhom": "自分用のタイマーや情報整理を検討する人。テンプレートやトリガーの出所を確認し、他者に見える形での利用や高難度コンテンツへの影響を慎重に判断します。",
+   "stack": [
+    "ACT",
+    "FFXIV ACT Plugin",
+    "ACT.Hojoring",
+    "SpecialSpellTimer",
+    "UltraScouter"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "依存関係を先に揃える",
+     "body": "ACT本体とFFXIV ACT Pluginが動作している状態で、ACT.Hojoringの現行リリースとREADMEにある依存環境を確認します。古い記事のDLLを混ぜず、現行リリース単位で管理します。",
+     "checks": [
+      ".NET FrameworkとVisual C++ランタイムを確認",
+      "既存のHojoringフォルダをバックアップ",
+      "ACTを終了してからファイルを置き換える"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "スぺスぺを理解する",
+     "body": "SpecialSpellTimerはアビリティやログをトリガーに、リキャストやタイミングを表示する用途です。まずは既存テンプレートを読み、トリガー条件・表示時間・読み上げの有無を一つずつ確認します。",
+     "checks": [
+      "自分の画面だけに表示する",
+      "複数のトリガーが同じログに反応しないか確認",
+      "読み上げは音量とタイミングを控えめにする"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "ウルスカを理解する",
+     "body": "UltraScouterはターゲットのHPや距離、周囲のモブなどをリアルタイムに表示します。ログに出ない情報を扱うため、スぺスぺとは入力の性質が異なります。必要な項目だけを有効にし、導入後の負荷と表示内容を確認します。",
+     "checks": [
+      "表示情報が攻略を自動化しないか考える",
+      "不要な検知・表示をオフにする",
+      "パッチ後にメモリ読み取りが変わる可能性を想定"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "Hojoring読み込み時にACTが止まる",
+     "action": "依存ランタイム、旧版DLL、他のACTプラグインとの競合を確認します。直前に更新したプラグインを戻し、最小構成で起動します。"
+    },
+    {
+     "symptom": "スぺスぺのタイマーがずれる",
+     "action": "Windows時刻、ログトリガー、パッチ対応、重複トリガーを確認します。"
+    },
+    {
+     "symptom": "ウルスカの表示が空になる",
+     "action": "対象パッチへの対応、読み取り権限、表示設定を確認します。未対応時は無理に旧版を使いません。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "ACT.Hojoring README",
+     "href": "https://github.com/anoyetta/ACT.Hojoring/blob/master/README.md",
+     "note": "スぺスぺ・ウルスカの公式説明とリリース"
+    },
+    {
+     "label": "SpecialSpellTimer Wiki",
+     "href": "https://github.com/anoyetta/ACT.Hojoring/wiki/SpecialSpellTimer",
+     "note": "スぺスぺの詳細設定"
+    },
+    {
+     "label": "UltraScouter Wiki",
+     "href": "https://github.com/anoyetta/ACT.Hojoring/wiki/UltraScouter",
+     "note": "ウルスカの詳細設定"
+    },
+    {
+     "label": "ACTエラー対処 — とらめも",
+     "href": "https://toramemoblog.com/act-hojoring-error",
+     "note": "補助輪関連のトラブル例"
+    }
+   ]
+  },
+  "cactbot": {
+   "id": "cactbot",
+   "eyebrow": "03—D / OVERLAY",
+   "title": "CACTBOT — オーバーレイ群",
+   "lead": "Raidbossだけではない。タイムライン、ミス記録、ジョブ表示など、モジュールごとに機能と影響を読む。",
+   "role": "CACTBOTはACTとOverlayPlugin上で動くFFXIV向けオーバーレイ。raidboss、oopsyraidsy、jobs、eureka、fisher、dpsなどのモジュールを持ちます。",
+   "forWhom": "機能ごとの違いを知り、必要なモジュールだけを確認したい人。高難度コンテンツの攻略を容易にする表示については、公式方針とコミュニティへの影響を先に考えます。",
+   "stack": [
+    "ACT",
+    "FFXIV ACT Plugin",
+    "OverlayPlugin",
+    "CactbotOverlay.dll",
+    "Cactbot UI modules"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "前提を確認する",
+     "body": "ACT、FFXIV ACT Plugin、x64版OverlayPluginが動作していることを確認します。CACTBOT単体で動くものではなく、OverlayPluginの機能に依存します。",
+     "checks": [
+      "FFXIV PluginのInclude HP for Triggersを確認",
+      "OverlayPluginのバージョンを確認",
+      "DirectX 11と.NETの前提を確認"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "リリースzipを取得する",
+     "body": "CACTBOT公式リリースから、ソースコードではなく配布用のリリースzipを取得します。展開後のOverlayPluginフォルダをACTのフォルダへ統合し、OverlayPluginaddonsCactbotOverlay.dllが存在することを確認します。",
+     "checks": [
+      "配布元URLとリリース日を確認",
+      "zipのプロパティにブロック表示がある場合は出所を再確認",
+      "OverlayPluginOverlayPluginの二重フォルダを作らない"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "モジュールを選ぶ",
+     "body": "raidbossはタイムラインとトリガー、oopsyraidsyはミスや戦闘不能の記録、jobsはジョブ情報などを扱います。最初から全部を表示せず、必要なモジュールだけを追加し、画面の見やすさとコンテンツへの影響を確認します。",
+     "checks": [
+      "オーバーレイの位置・サイズ・透明度を確認",
+      "読み上げは必要性と周囲への影響を考える",
+      "更新停止時は無効化して公式情報を確認"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "CactbotOverlay.dllが読み込まれない",
+     "action": "ACTを終了し、OverlayPluginフォルダの位置と二重フォルダを確認します。リリースzipを使ったかも確認します。"
+    },
+    {
+     "symptom": "Raidbossの表示が出ない",
+     "action": "FFXIV Pluginのトリガー向けHP設定、OverlayPluginのオーバーレイ設定、対象コンテンツの対応状況を確認します。"
+    },
+    {
+     "symptom": "パッチ後に警告や誤通知が出る",
+     "action": "最新リリースの対応状況を確認し、更新されるまで該当モジュールを無効化します。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "cactbot 公式ドキュメント",
+     "href": "https://ezsoftware.github.io/cactbot/",
+     "note": "機能・依存関係・インストール"
+    },
+    {
+     "label": "Cactbot GitHub Releases",
+     "href": "https://github.com/quisquous/cactbot/releases/latest",
+     "note": "公式リリース"
+    },
+    {
+     "label": "Cactbot導入 — とらめも",
+     "href": "https://toramemoblog.com/act-cactbot",
+     "note": "日本語の機能別解説。2026/03更新表示"
+    },
+    {
+     "label": "OverlayPlugin Setup Guide",
+     "href": "https://overlayplugin.github.io/docs/setup/",
+     "note": "基盤となるOverlayPluginの導入"
+    }
+   ]
+  },
+  "overlay": {
+   "id": "overlay",
+   "eyebrow": "03—E / DISPLAY",
+   "title": "OverlayPlugin — 表示の器",
+   "lead": "ログ解析と画面表示の間にある層。オーバーレイの種類、位置、入力元を整理する。",
+   "role": "OverlayPluginはACTの情報をオーバーレイとして表示するためのプラグイン基盤です。メーターやCACTBOTなどの画面を配置・管理します。",
+   "forWhom": "画面表示の仕組みを知りたい人。表示が見えることと、機能が規約上許容されることは別問題として扱います。",
+   "stack": [
+    "ACT",
+    "OverlayPlugin",
+    "Mini Parse / Cactbot / Web overlay",
+    "表示位置・サイズ設定"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "基盤として導入する",
+     "body": "ACTのPlugin ListingからOverlayPluginを追加し、導入後に再起動します。まず空のオーバーレイを作成し、表示枠そのものが動くか確認します。",
+     "checks": [
+      "OverlayPluginがPlugin Listingで有効か確認",
+      "表示枠のURLやローカルパスを確認",
+      "画面外に配置されていないか確認"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "表示を最小構成にする",
+     "body": "DPSメーター、タイムライン、トリガーなどを一度に追加せず、ひとつずつ表示します。背景色・透明度・クリック透過などの設定は、誤操作や視認性に影響します。",
+     "checks": [
+      "必要な情報だけを表示",
+      "戦闘中に視線を奪いすぎない",
+      "他プレイヤーへ共有・表示しない"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "パッチとブラウザ層を確認する",
+     "body": "OverlayPluginは表示基盤であるため、ACT本体やオーバーレイ側の更新で挙動が変わります。パッチ後に表示が崩れた場合は、表示設定と基盤の対応状況を分けて確認します。",
+     "checks": [
+      "OverlayPluginと個別オーバーレイを別々に更新",
+      "古い設定ファイルをバックアップ",
+      "出所不明のHTMLやDLLを追加しない"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "ウィンドウはあるが見えない",
+     "action": "座標、サイズ、透明度、表示チェック、別モニター設定を確認します。"
+    },
+    {
+     "symptom": "画面が黒い／白い",
+     "action": "表示URL、内蔵ブラウザの状態、オーバーレイ側の更新状況を確認します。"
+    },
+    {
+     "symptom": "クリックできない／操作を奪う",
+     "action": "クリック透過や固定設定を確認し、通常のゲーム操作を妨げない構成に戻します。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "OverlayPlugin公式セットアップ",
+     "href": "https://overlayplugin.github.io/docs/setup/",
+     "note": "導入・オーバーレイ追加・設定"
+    },
+    {
+     "label": "OverlayPlugin GitHub",
+     "href": "https://github.com/OverlayPlugin/OverlayPlugin",
+     "note": "開発元リポジトリ"
+    },
+    {
+     "label": "ACT導入完全ガイド — とらめも",
+     "href": "https://toramemoblog.com/act-install",
+     "note": "日本語の実用手順"
+    }
+   ]
+  },
+  "repository": {
+   "id": "repository",
+   "eyebrow": "03—C / PLUGIN ECOSYSTEM",
+   "title": "Dalamud / 公式リポジトリ",
+   "lead": "XIVLauncherから読み込まれるプラグインの入口。公式リポジトリ、非公式リポジトリ、個別プラグインを混同しないためのページ。",
+   "role": "Dalamudはゲーム内プラグインを読み込む基盤で、公式リポジトリはそのプラグインを検索・導入する一覧です。XIVLauncher本体や補助輪、CACTBOTそのものと同じものではありません。",
+   "forWhom": "プラグインを探す前に、どのリポジトリから何を入れるのか、更新日・権限・サポート範囲を確認したい人。",
+   "stack": [
+    "XIVLauncher",
+    "Dalamud",
+    "Neat Plugins / 公式一覧",
+    "個別プラグイン設定"
+   ],
+   "steps": [
+    {
+     "label": "STEP 01",
+     "title": "まずDalamudを有効化する",
+     "body": "公式リポジトリはXIVLauncherからDalamudを有効化した後にゲーム内で利用します。XIVLauncherの導入ページとDalamudの公式ドキュメントを先に確認します。",
+     "checks": [
+      "XIVLauncherの設定でDalamudを有効化",
+      "/xlpluginsが開くか確認",
+      "プラグイン導入前に公式リポジトリか確認"
+     ]
+    },
+    {
+     "label": "STEP 02",
+     "title": "公式一覧から検索する",
+     "body": "ゲーム内のDalamud Pluginsでプラグイン名を検索し、説明・作者・更新状況を確認してからインストールします。公式一覧にないものは別扱いです。",
+     "checks": [
+      "作者と説明を読む",
+      "更新日と対応状況を確認",
+      "不要になったプラグインは無効化・削除"
+     ]
+    },
+    {
+     "label": "STEP 03",
+     "title": "非公式リポジトリと分けて管理する",
+     "body": "個別URLを追加するタイプのリポジトリは、公式一覧とはサポート範囲が異なります。入れる必要があるか、権限や通信先を理解してから追加します。",
+     "checks": [
+      "URLの出所を確認",
+      "導入したリポジトリを記録",
+      "不具合時に追加分を外して切り分け"
+     ]
+    }
+   ],
+   "troubleshooting": [
+    {
+     "symptom": "公式一覧にプラグインがない",
+     "action": "名称変更・対応停止・非公式リポジトリの可能性を確認します。検索結果だけでDLLを取得しません。"
+    },
+    {
+     "symptom": "更新後にプラグインが無効になった",
+     "action": "Dalamudとプラグインの対応状況を確認し、パッチ後は作者の更新を待ちます。"
+    },
+    {
+     "symptom": "リポジトリ追加後に不具合が出た",
+     "action": "追加したURLを一つずつ無効化し、/xllogやdalamud.logで原因を確認します。"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Neat Plugins / Dalamud公式一覧",
+     "href": "https://goatcorp.github.io/DalamudPlugins/",
+     "note": "公式プラグイン一覧"
+    },
+    {
+     "label": "Dalamud公式Getting Started",
+     "href": "https://dalamud.dev/faq/getting-started/",
+     "note": "Dalamud・プラグインの公式ドキュメント"
+    },
+    {
+     "label": "XIVLauncher公式ページ",
+     "href": "https://goatcorp.github.io/",
+     "note": "公式ランチャー・プラグイン導入案内"
+    },
+    {
+     "label": "XIVLauncherプラグイン一覧 — とらめも",
+     "href": "https://toramemoblog.com/xivlauncher-plugin-list",
+     "note": "公式／非公式の分類を考える際の参考"
+    }
+   ]
+  }
+ },
+ "features": {
+  "act": [
+   {
+    "title": "DPS・HPSを集計する",
+    "plain": "戦闘中に与えたダメージや回復量を、戦闘単位・プレイヤー単位で集計します。",
+    "display": "画面に出るもの：総ダメージ、DPS、被ダメージ、回復量、スキル使用回数など。",
+    "boundary": "できないこと：数字だけで上手さや責任を自動判定すること。数字は状況と一緒に読みます。",
+    "tone": "amber"
+   },
+   {
+    "title": "戦闘ログを保存する",
+    "plain": "いつ、どの敵に、どの攻撃を受けたかをログとして残し、後から振り返れます。",
+    "display": "画面に出るもの：戦闘の開始・終了、攻撃名、ダメージ、バフ・デバフの履歴。",
+    "boundary": "注意点：ログや数値を他人へ共有する場合は、本人の同意とコミュニティ上の配慮が必要です。",
+    "tone": "blue"
+   },
+   {
+    "title": "オーバーレイへデータを渡す",
+    "plain": "OverlayPluginやメーターを組み合わせると、集計結果をゲーム画面の外側に表示できます。",
+    "display": "画面に出るもの：小さなメーター、戦闘時間、パーティの集計など。",
+    "boundary": "できないこと：ACT本体だけでタイムラインやゲーム内UIを自動追加すること。別の拡張が必要です。",
+    "tone": "sage"
+   }
+  ],
+  "launcher": [
+   {
+    "title": "ゲームを起動・更新する",
+    "plain": "公式ランチャーとは別の入口からログインし、FFXIVを起動・パッチ適用します。",
+    "display": "画面に出るもの：ログイン欄、起動ボタン、更新状態、設定ボタン。",
+    "boundary": "注意点：公式ランチャーではないため、認証情報を保存するかは自分で判断します。",
+    "tone": "amber"
+   },
+   {
+    "title": "ゲーム内プラグインを管理する",
+    "plain": "Dalamudを有効化すると、ゲーム内のDalamud Pluginsから対応プラグインを検索・導入できます。",
+    "display": "画面に出るもの：検索欄、インストール済み・更新可能・無効状態、各プラグインの設定。",
+    "boundary": "できないこと：すべてのプラグインが常に使えること。パッチ直後は対応待ちになる場合があります。",
+    "tone": "blue"
+   },
+   {
+    "title": "設定とログを確認する",
+    "plain": "プラグインの有効・無効、リポジトリ、ログをまとめて確認できます。",
+    "display": "画面に出るもの：/xlplugins、/xllog、dalamud.logのエラー情報。",
+    "boundary": "注意点：非公式リポジトリは、公式プラグイン一覧よりも安全性・更新性の確認が必要です。",
+    "tone": "sage"
+   }
+  ],
+  "hojoring": [
+   {
+    "title": "スぺスぺでタイマーを出す",
+    "plain": "ログに特定の文言やイベントが出たとき、残り時間や次の行動を表示します。",
+    "display": "画面に出るもの：アイコン、カウントダウン、テキスト、音声通知。",
+    "boundary": "できないこと：正しい行動をプレイヤーの代わりに実行すること。設定は自分で作成・確認します。",
+    "tone": "amber"
+   },
+   {
+    "title": "ウルスカで情報を可視化する",
+    "plain": "ターゲットや周囲の対象に関する情報を、別ウィンドウや表示レイヤーで確認します。",
+    "display": "画面に出るもの：対象名、HP、距離、周囲の対象など、設定した情報。",
+    "boundary": "注意点：通常のログ解析よりゲーム状態への依存が強く、パッチ後に動作が変わる可能性があります。",
+    "tone": "blue"
+   },
+   {
+    "title": "読み上げを補助する",
+    "plain": "条件に合ったときに短い音声を再生し、画面を見続けなくても通知を受け取れます。",
+    "display": "画面に出るもの：通知履歴、音声設定、トリガー条件。",
+    "boundary": "注意点：音量や頻度が高いとプレイの妨げや周囲への迷惑になるため、必要最小限にします。",
+    "tone": "sage"
+   }
+  ],
+  "cactbot": [
+   {
+    "title": "Raidbossでタイムラインを見る",
+    "plain": "対応コンテンツのイベントに合わせて、次のギミックや注意をオーバーレイ表示します。",
+    "display": "画面に出るもの：タイムライン、イベント名、カウントダウン、トリガー通知。",
+    "boundary": "注意点：コンテンツ対応や翻訳は更新されます。古いタイムラインを現行パッチへそのまま当てはめません。",
+    "tone": "amber"
+   },
+   {
+    "title": "OopsyRaidsyでミスを振り返る",
+    "plain": "戦闘ログをもとに、被弾や戦闘不能につながったイベントを後から確認します。",
+    "display": "画面に出るもの：ミスの種類、対象アクション、該当プレイヤー、発生時刻。",
+    "boundary": "できないこと：ログだけでプレイヤーを責めたり、原因を完全に断定したりすること。",
+    "tone": "blue"
+   },
+   {
+    "title": "ジョブ・コンテンツ別モジュールを使う",
+    "plain": "jobs、eureka、fisherなど、用途ごとの表示モジュールを必要な分だけ有効化します。",
+    "display": "画面に出るもの：ジョブ情報、採集・コンテンツ関連の通知、モジュール別の設定。",
+    "boundary": "注意点：一度に多くを有効化すると見づらくなり、機能によってはコンテンツ難度への影響も大きくなります。",
+    "tone": "sage"
+   }
+  ],
+  "overlay": [
+   {
+    "title": "情報を画面上に重ねる",
+    "plain": "ACTやCACTBOTなどが出す情報を、ゲーム画面の上に重ねて表示します。",
+    "display": "画面に出るもの：メーター、タイムライン、トリガー、カスタムHTML画面。",
+    "boundary": "できないこと：OverlayPlugin単体で戦闘ログを解析したり、プラグインの機能を作ったりすること。",
+    "tone": "amber"
+   },
+   {
+    "title": "表示位置とサイズを調整する",
+    "plain": "オーバーレイごとに位置、幅、高さ、透明度、クリック透過などを調整できます。",
+    "display": "画面に出るもの：設定した枠、表示／非表示、位置・サイズの状態。",
+    "boundary": "注意点：画面外へ移動すると見えなくなるため、モニター構成変更後は座標を確認します。",
+    "tone": "blue"
+   },
+   {
+    "title": "複数の表示を組み合わせる",
+    "plain": "メーターとタイムラインを別枠にするなど、用途ごとに表示を組み合わせられます。",
+    "display": "画面に出るもの：複数の独立した表示枠と、それぞれの設定。",
+    "boundary": "注意点：表示が増えるほど視線を奪うため、必要な情報だけを残します。",
+    "tone": "sage"
+   }
+  ],
+  "repository": [
+   {
+    "title": "公式一覧から探す",
+    "plain": "ゲーム内のDalamud Pluginsで、作者・説明・更新状況を確認してから導入します。",
+    "display": "画面に出るもの：検索結果、インストール状態、更新状態、設定ボタン。",
+    "boundary": "公式一覧にあることと、FFXIV公式が許可していることは同じではありません。",
+    "tone": "amber"
+   },
+   {
+    "title": "リポジトリを分けて管理する",
+    "plain": "公式一覧と個別URLを追加する非公式リポジトリを区別し、導入元を記録します。",
+    "display": "画面に出るもの：追加リポジトリ、プラグインの出所、更新情報。",
+    "boundary": "出所・権限・通信先が不明なリポジトリは追加しません。",
+    "tone": "blue"
+   },
+   {
+    "title": "更新と不具合を切り分ける",
+    "plain": "パッチ後に無効になったプラグインを、Dalamud本体・公式一覧・個別プラグインに分けて確認します。",
+    "display": "画面に出るもの：/xllog、dalamud.log、無効化状態。",
+    "boundary": "古いDLLを手動で上書きせず、作者の対応を待ちます。",
+    "tone": "sage"
+   }
+  ]
+ },
+ "downloads": {
+  "act": [
+   {
+    "name": "ACT本体",
+    "detail": "インストーラーまたはZIP Archive",
+    "href": "https://advancedcombattracker.com/download.php",
+    "label": "ACT公式 Downloads",
+    "kind": "本体"
+   },
+   {
+    "name": "FFXIV ACT Plugin",
+    "detail": "FFXIV用の解析プラグイン",
+    "href": "https://github.com/ravahn/FFXIV_ACT_Plugin/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "解析"
+   },
+   {
+    "name": "OverlayPlugin",
+    "detail": "オーバーレイ表示の基盤",
+    "href": "https://github.com/OverlayPlugin/OverlayPlugin/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "表示"
+   }
+  ],
+  "launcher": [
+   {
+    "name": "XIVLauncher",
+    "detail": "Windows版 Setup.exe",
+    "href": "https://github.com/goatcorp/FFXIVQuickLauncher/releases/latest",
+    "label": "公式 GitHub Releases",
+    "kind": "ランチャー"
+   },
+   {
+    "name": "Dalamud",
+    "detail": "XIVLauncherから読み込む基盤",
+    "href": "https://dalamud.dev/",
+    "label": "Dalamud公式 Docs",
+    "kind": "基盤"
+   },
+   {
+    "name": "公式プラグイン一覧",
+    "detail": "ゲーム内Dalamud Pluginsから導入",
+    "href": "https://goatcorp.github.io/DalamudPlugins/",
+    "label": "Neat Plugins",
+    "kind": "一覧"
+   }
+  ],
+  "hojoring": [
+   {
+    "name": "ACT.Hojoring",
+    "detail": "スぺスぺ・ウルスカを含むリリース",
+    "href": "https://github.com/anoyetta/ACT.Hojoring/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "補助輪"
+   },
+   {
+    "name": "SpecialSpellTimer",
+    "detail": "スぺスぺの設定Wiki",
+    "href": "https://github.com/anoyetta/ACT.Hojoring/wiki/SpecialSpellTimer",
+    "label": "Wiki",
+    "kind": "設定"
+   },
+   {
+    "name": "UltraScouter",
+    "detail": "ウルスカの設定Wiki",
+    "href": "https://github.com/anoyetta/ACT.Hojoring/wiki/UltraScouter",
+    "label": "Wiki",
+    "kind": "設定"
+   }
+  ],
+  "cactbot": [
+   {
+    "name": "cactbot",
+    "detail": "配布用リリースzip（Sourceではない方）",
+    "href": "https://github.com/quisquous/cactbot/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "オーバーレイ"
+   },
+   {
+    "name": "cactbot公式ドキュメント",
+    "detail": "依存関係・配置・モジュール設定",
+    "href": "https://ezsoftware.github.io/cactbot/",
+    "label": "公式 Docs",
+    "kind": "設定"
+   },
+   {
+    "name": "OverlayPlugin",
+    "detail": "cactbotの前提となる表示基盤",
+    "href": "https://github.com/OverlayPlugin/OverlayPlugin/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "前提"
+   }
+  ],
+  "overlay": [
+   {
+    "name": "OverlayPlugin",
+    "detail": "ACT用オーバーレイ基盤",
+    "href": "https://github.com/OverlayPlugin/OverlayPlugin/releases/latest",
+    "label": "GitHub Releases",
+    "kind": "基盤"
+   },
+   {
+    "name": "OverlayPlugin Setup Guide",
+    "detail": "導入・オーバーレイ追加の公式手順",
+    "href": "https://overlayplugin.github.io/docs/setup/",
+    "label": "公式 Docs",
+    "kind": "手順"
+   }
+  ],
+  "repository": [
+   {
+    "name": "Dalamud公式ドキュメント",
+    "detail": "基盤とプラグイン導入の案内",
+    "href": "https://dalamud.dev/",
+    "label": "Dalamud公式 Docs",
+    "kind": "基盤"
+   },
+   {
+    "name": "公式プラグイン一覧",
+    "detail": "Neat Plugins / DalamudPlugins",
+    "href": "https://goatcorp.github.io/DalamudPlugins/",
+    "label": "公式一覧を開く",
+    "kind": "公式"
+   },
+   {
+    "name": "プラグインAPI・開発情報",
+    "detail": "プラグインの仕組みを確認",
+    "href": "https://goatcorp.github.io/Dalamud/api/index.html",
+    "label": "API Docs",
+    "kind": "開発"
+   }
+  ]
+ },
+ "screens": {
+  "act": [
+   {
+    "name": "Startup Wizard",
+    "path": "ACT > Options > Miscellaneous > Show Startup Wizard",
+    "checks": [
+     "Parsing PluginでFFXIV Parsing Pluginを選択",
+     "Download / Enable Pluginを実行",
+     "ログ設定でFFXIVを選択"
+    ]
+   },
+   {
+    "name": "Plugin Listing",
+    "path": "ACT > Plugins > Plugin Listing",
+    "checks": [
+     "FFXIV_ACT_Plugin.dllが一覧にある",
+     "OverlayPluginがEnabledになっている",
+     "Get Plugins…から追加できる"
+    ]
+   },
+   {
+    "name": "FFXIV Settings",
+    "path": "Plugins > FFXIV ACT Plugin > FFXIV Settings",
+    "checks": [
+     "Parse Optionsを開く",
+     "Include HP for Triggersを確認",
+     "パッチ後は対応状況を確認"
+    ]
+   },
+   {
+    "name": "Overlay設定",
+    "path": "Plugins > OverlayPlugin > Mini Parse / Overlays",
+    "checks": [
+     "オーバーレイの表示チェック",
+     "位置・幅・高さ・透明度",
+     "画面外に出ていないか"
+    ]
+   }
+  ],
+  "launcher": [
+   {
+    "name": "XIVLauncher設定",
+    "path": "XIVLauncher > 右下の歯車",
+    "checks": [
+     "Enable Dalamudを有効化",
+     "保存済み認証情報の扱いを確認",
+     "パッチ後はDalamudの対応状況を確認"
+    ]
+   },
+   {
+    "name": "Dalamud Plugins",
+    "path": "ゲーム内ESC > Dalamud Plugins または /xlplugins",
+    "checks": [
+     "検索欄でプラグイン名を探す",
+     "公式リポジトリか確認",
+     "導入後に設定画面とログを確認"
+    ]
+   },
+   {
+    "name": "ログ確認",
+    "path": "ゲーム内 /xllog、またはAppDataのdalamud.log",
+    "checks": [
+     "直前に追加したプラグインを特定",
+     "エラー文と発生時刻を控える",
+     "質問時に再現条件を添える"
+    ]
+   }
+  ],
+  "hojoring": [
+   {
+    "name": "Hojoring設定",
+    "path": "ACT > Plugins > ACT.Hojoring系プラグイン",
+    "checks": [
+     "スぺスぺ／ウルスカのEnabled状態",
+     "設定ファイルの保存場所",
+     "不要な表示・読み上げを無効化"
+    ]
+   },
+   {
+    "name": "スぺスぺトリガー",
+    "path": "SpecialSpellTimer > Triggers / Timers",
+    "checks": [
+     "ログ条件と対象ジョブ",
+     "表示時間・繰り返し・重複",
+     "読み上げの有無と音量"
+    ]
+   },
+   {
+    "name": "ウルスカ表示",
+    "path": "UltraScouter > 表示・検知設定",
+    "checks": [
+     "距離・HP・対象表示の必要性",
+     "表示範囲と画面位置",
+     "パッチ後の対応状況"
+    ]
+   }
+  ],
+  "cactbot": [
+   {
+    "name": "CactbotOverlay",
+    "path": "ACT > Plugins > OverlayPlugin > Add / Cactbot",
+    "checks": [
+     "CactbotOverlay.dllが読み込まれている",
+     "raidbossなどのモジュールを選ぶ",
+     "表示位置・透明度を調整"
+    ]
+   },
+   {
+    "name": "Raidboss設定",
+    "path": "Cactbot overlay > raidboss",
+    "checks": [
+     "対象コンテンツの対応状況",
+     "タイムライン・トリガーの表示",
+     "読み上げを必要最小限にする"
+    ]
+   },
+   {
+    "name": "OopsyRaidsy / jobs",
+    "path": "Cactbot overlay > module settings",
+    "checks": [
+     "使うモジュールだけ有効化",
+     "ログの扱いと保存先",
+     "パッチ後の誤通知を確認"
+    ]
+   }
+  ],
+  "overlay": [
+   {
+    "name": "Get Plugins",
+    "path": "ACT > Plugins > Plugin Listing > Get Plugins…",
+    "checks": [
+     "Overlay Pluginを選択",
+     "Download and Enable",
+     "導入後にACTを再起動"
+    ]
+   },
+   {
+    "name": "Add Overlay",
+    "path": "Plugins > OverlayPlugin > Mini Parse / Overlays",
+    "checks": [
+     "オーバーレイの種類を選ぶ",
+     "URLまたは内蔵プリセットを確認",
+     "表示枠の座標・サイズを設定"
+    ]
+   }
+  ],
+  "repository": [
+   {
+    "name": "Dalamud Plugins",
+    "path": "ゲーム内ESC > Dalamud Plugins または /xlplugins",
+    "checks": [
+     "公式一覧のタブを開く",
+     "作者・説明・更新日を確認",
+     "Install / Enableを実行"
+    ]
+   },
+   {
+    "name": "Repository管理",
+    "path": "Dalamud設定 > Experimental / Repository",
+    "checks": [
+     "追加URLの出所を確認",
+     "不要なURLを削除",
+     "非公式は公式一覧と分けて記録"
+    ]
+   },
+   {
+    "name": "ログ確認",
+    "path": "ゲーム内 /xllog、またはAppDataのdalamud.log",
+    "checks": [
+     "直前に追加したプラグインを特定",
+     "エラー文と発生時刻を控える",
+     "パッチ対応状況を確認"
+    ]
+   }
+  ]
+ }
+}
