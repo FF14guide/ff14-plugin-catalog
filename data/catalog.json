@@ -23978,7 +23978,7 @@
   "icon": "https://puni.sh/api/plugins/icon/131",
   "images": [],
   "api": null,
-  "downloads": 23748,
+  "downloads": 23751,
   "lastUpdate": 0,
   "testing": false,
   "applicable": "any",
@@ -24011,44 +24011,6 @@
   ]
  },
  {
-  "internal": "AutoRetainer",
-  "name": "AutoRetainer",
-  "author": "kawaii, NightmareXIV",
-  "punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
-  "description": "Collect and assign ventures to your retainers from the comfort of your bed.",
-  "version": "4.6.2.14",
-  "tags": [],
-  "repoUrl": "https://github.com/PunishXIV/AutoRetainer",
-  "icon": "https://puni.sh/api/plugins/icon/24",
-  "images": [],
-  "api": "15",
-  "downloads": 2630230,
-  "lastUpdate": 1792368614,
-  "testing": false,
-  "applicable": "any",
-  "changelog": "- Fixed an issue where Disable Multi Mode on Manual Login and Do not reset Preferred Character on Manual Login options did not work after update",
-  "loadPriority": 0,
-  "sources": [
-   {
-    "repo": "https://love.puni.sh/ment.json",
-    "official": false,
-    "version": "4.6.2.14"
-   },
-   {
-    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
-    "official": false,
-    "version": "4.2.6.3"
-   }
-  ],
-  "jaSummary": "リテイナーとフリーカンパニー工房への定型作業を、複数キャラクター横断で自動化する。",
-  "jaFeatures": "・リテイナーの冒険者依頼の完了結果を自動収集し、再依頼の設定に基づいて自動で再割り当て\n・マルチキャラモード: 複数キャラクターを順番に処理し、ログイン・ログアウトも自動で行う\n・Voyage System: 飛空艇・潜水艦の航海（サブマリンボイジャー）を管理・自動運行\n・グランドカンパニー自動化: 専門家納品とシールの自動交換\n・インベントリ管理: NPCへの自動売却、分解、コファーの開封、リテイナーへの荷物の託送を自動化\n・IPC（プロセス間通信）を通じて他プラグインと状態・イベントを共有でき、AutoDuty や ICE などの自動化プラグインの土台としてもよく使われる",
-  "categories": [
-   "auto",
-   "market"
-  ],
-  "jaTags": []
- },
- {
   "internal": "Orbwalker",
   "name": "Orbwalker",
   "author": "kawaii, NightmareXIV",
@@ -24060,7 +24022,7 @@
   "icon": "https://puni.sh/api/plugins/icon/12",
   "images": [],
   "api": "15",
-  "downloads": 87450,
+  "downloads": 87452,
   "lastUpdate": 1777528744,
   "testing": false,
   "applicable": "any",
@@ -24087,6 +24049,44 @@
   "jaTags": []
  },
  {
+  "internal": "AutoRetainer",
+  "name": "AutoRetainer",
+  "author": "kawaii, NightmareXIV",
+  "punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
+  "description": "Collect and assign ventures to your retainers from the comfort of your bed.",
+  "version": "4.6.2.14",
+  "tags": [],
+  "repoUrl": "https://github.com/PunishXIV/AutoRetainer",
+  "icon": "https://puni.sh/api/plugins/icon/24",
+  "images": [],
+  "api": "15",
+  "downloads": 2630329,
+  "lastUpdate": 1792368614,
+  "testing": false,
+  "applicable": "any",
+  "changelog": "- Fixed an issue where Disable Multi Mode on Manual Login and Do not reset Preferred Character on Manual Login options did not work after update",
+  "loadPriority": 0,
+  "sources": [
+   {
+    "repo": "https://love.puni.sh/ment.json",
+    "official": false,
+    "version": "4.6.2.14"
+   },
+   {
+    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
+    "official": false,
+    "version": "4.2.6.3"
+   }
+  ],
+  "jaSummary": "リテイナーとフリーカンパニー工房への定型作業を、複数キャラクター横断で自動化する。",
+  "jaFeatures": "・リテイナーの冒険者依頼の完了結果を自動収集し、再依頼の設定に基づいて自動で再割り当て\n・マルチキャラモード: 複数キャラクターを順番に処理し、ログイン・ログアウトも自動で行う\n・Voyage System: 飛空艇・潜水艦の航海（サブマリンボイジャー）を管理・自動運行\n・グランドカンパニー自動化: 専門家納品とシールの自動交換\n・インベントリ管理: NPCへの自動売却、分解、コファーの開封、リテイナーへの荷物の託送を自動化\n・IPC（プロセス間通信）を通じて他プラグインと状態・イベントを共有でき、AutoDuty や ICE などの自動化プラグインの土台としてもよく使われる",
+  "categories": [
+   "auto",
+   "market"
+  ],
+  "jaTags": []
+ },
+ {
   "internal": "PandorasBox",
   "name": "Pandora's Box",
   "author": "Taurenkey, NightmareXIV, croizat",
@@ -24103,7 +24103,7 @@
   "icon": "https://puni.sh/api/plugins/icon/8",
   "images": [],
   "api": "15",
-  "downloads": 1412619,
+  "downloads": 1412628,
   "lastUpdate": 1791992270,
   "testing": false,
   "applicable": "any",
@@ -24147,7 +24147,7 @@
   "icon": "https://puni.sh/api/plugins/icon/11",
   "images": [],
   "api": "15",
-  "downloads": 400284,
+  "downloads": 400285,
   "lastUpdate": 1785546003,
   "testing": false,
   "applicable": "any",
@@ -24192,7 +24192,7 @@
   "icon": "https://puni.sh/api/plugins/icon/9",
   "images": [],
   "api": "15",
-  "downloads": 249586,
+  "downloads": 249587,
   "lastUpdate": 1777584039,
   "testing": false,
   "applicable": "any",
@@ -24236,7 +24236,7 @@
   "icon": "https://puni.sh/api/plugins/icon/47",
   "images": [],
   "api": "15",
-  "downloads": 2764968,
+  "downloads": 2764970,
   "lastUpdate": 1791717874,
   "testing": false,
   "applicable": "any",
@@ -24271,44 +24271,6 @@
   ]
  },
  {
-  "internal": "YesAlready",
-  "name": "Yes Already",
-  "author": "daemitus, croizat",
-  "punchline": "Clicks Yes in various dialogs you've specified.",
-  "description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
-  "version": "1.15.7.4",
-  "tags": [],
-  "repoUrl": "https://github.com/PunishXIV/YesAlready",
-  "icon": "https://puni.sh/api/plugins/icon/26",
-  "images": [],
-  "api": "15",
-  "downloads": 1550636,
-  "lastUpdate": 1791981915,
-  "testing": false,
-  "applicable": "any",
-  "changelog": "",
-  "loadPriority": 0,
-  "sources": [
-   {
-    "repo": "https://love.puni.sh/ment.json",
-    "official": false,
-    "version": "1.15.7.4"
-   },
-   {
-    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
-    "official": false,
-    "version": "1.6.3.3"
-   }
-  ],
-  "jaSummary": "はい/いいえダイアログだけでなく、複数選択肢・NPC会話・分解確認まで種類別のタブで自動化する。",
-  "jaFeatures": "・YesNoタブ: 「はい/いいえ」の確認ダイアログを自動選択（ハウスへの入退室確認、修理確認など）\n・Listsタブ: 複数選択肢のウィンドウを個別設定で管理（例:「リテイナーベンチャーの確認[完了]が出たら押す」）\n・Talkタブ: リテイナーや宿屋など、指定したNPCの会話を自動スキップ\n・Bothersタブ: アイテム検査・分解など専門的な確認をスキップ。マテリア交換で前回の選択を記憶する InclusionShopRemember 機能\n・/regex/ 記法でのテキスト指定にも対応し、desynth（分解）のようなyes/noに見えないダイアログも扱える組み込みモジュールを搭載\n・ハウス出入り・修理確認・リテイナーベンチャーの完了から再依頼まで・リーヴ受注/納品・コンテンツ終了確認などを自動化する定番の使い方がある",
-  "categories": [
-   "qol",
-   "auto"
-  ],
-  "jaTags": []
- },
- {
   "internal": "Questionable",
   "name": "Questionable",
   "author": "the Puni.sh Quest Squad",
@@ -24325,7 +24287,7 @@
   "icon": "https://puni.sh/api/plugins/icon/94",
   "images": [],
   "api": "15",
-  "downloads": 2516344,
+  "downloads": 2516357,
   "lastUpdate": 1792284093,
   "testing": false,
   "applicable": "any",
@@ -24352,6 +24314,44 @@
   ]
  },
  {
+  "internal": "YesAlready",
+  "name": "Yes Already",
+  "author": "daemitus, croizat",
+  "punchline": "Clicks Yes in various dialogs you've specified.",
+  "description": "Tired of clicking yes in Praetorium? Can't stand using keys in dungeons? Well do I have the plugin for you! Yes Already is specifically designed to click all the annoying dialogs you've grown accustomed facerolling. Just enter the dialog text, and you'll never see it again! Also works with /regex/ and has several built-in modules for dialogs that aren't quite yes/no prompts but act like it (like desynth).",
+  "version": "1.15.7.4",
+  "tags": [],
+  "repoUrl": "https://github.com/PunishXIV/YesAlready",
+  "icon": "https://puni.sh/api/plugins/icon/26",
+  "images": [],
+  "api": "15",
+  "downloads": 1550642,
+  "lastUpdate": 1791981915,
+  "testing": false,
+  "applicable": "any",
+  "changelog": "",
+  "loadPriority": 0,
+  "sources": [
+   {
+    "repo": "https://love.puni.sh/ment.json",
+    "official": false,
+    "version": "1.15.7.4"
+   },
+   {
+    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
+    "official": false,
+    "version": "1.6.3.3"
+   }
+  ],
+  "jaSummary": "はい/いいえダイアログだけでなく、複数選択肢・NPC会話・分解確認まで種類別のタブで自動化する。",
+  "jaFeatures": "・YesNoタブ: 「はい/いいえ」の確認ダイアログを自動選択（ハウスへの入退室確認、修理確認など）\n・Listsタブ: 複数選択肢のウィンドウを個別設定で管理（例:「リテイナーベンチャーの確認[完了]が出たら押す」）\n・Talkタブ: リテイナーや宿屋など、指定したNPCの会話を自動スキップ\n・Bothersタブ: アイテム検査・分解など専門的な確認をスキップ。マテリア交換で前回の選択を記憶する InclusionShopRemember 機能\n・/regex/ 記法でのテキスト指定にも対応し、desynth（分解）のようなyes/noに見えないダイアログも扱える組み込みモジュールを搭載\n・ハウス出入り・修理確認・リテイナーベンチャーの完了から再依頼まで・リーヴ受注/納品・コンテンツ終了確認などを自動化する定番の使い方がある",
+  "categories": [
+   "qol",
+   "auto"
+  ],
+  "jaTags": []
+ },
+ {
   "internal": "WrathCombo",
   "name": "Wrath Combo",
   "author": "Team Wrath",
@@ -24367,7 +24367,7 @@
   "icon": "https://puni.sh/api/plugins/icon/60",
   "images": [],
   "api": "15",
-  "downloads": 1255537,
+  "downloads": 1255546,
   "lastUpdate": 1792168226,
   "testing": false,
   "applicable": "any",
@@ -24390,6 +24390,50 @@
    "戦闘",
    "ローテーション",
    "PvP"
+  ]
+ },
+ {
+  "internal": "Splatoon",
+  "name": "Splatoon",
+  "author": "NightmareXIV",
+  "punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
+  "description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
+  "version": "3.9.2.32",
+  "tags": [
+   "Utility",
+   "Accessibility"
+  ],
+  "repoUrl": "https://github.com/PunishXIV/Splatoon",
+  "icon": "https://puni.sh/api/plugins/icon/10",
+  "images": [],
+  "api": "15",
+  "downloads": 2339051,
+  "lastUpdate": 1792020246,
+  "testing": false,
+  "applicable": "any",
+  "changelog": "- Bugfixes. May introduce new bugs though.",
+  "loadPriority": 0,
+  "sources": [
+   {
+    "repo": "https://love.puni.sh/ment.json",
+    "official": false,
+    "version": "3.9.2.32"
+   },
+   {
+    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
+    "official": false,
+    "version": "3.4.1.3"
+   }
+  ],
+  "jaSummary": "スクリプトで任意の図形やマーカーを画面に描画するオーバーレイエンジン。",
+  "jaFeatures": "・グループ化された無制限のウェイマークとラベルをピクセル精度で配置\n・アクター（敵・PC）に追従するインジケーターの描画\n・プリセットは同梱されておらず、自分で作るか他者のプリセットを読み込む\n・重要なオブジェクトやイベントを視覚的に判別しやすくするアクセシビリティツールと位置づけられている\n・PalacePal など他プラグインの描画基盤としても使われる",
+  "categories": [
+   "raid",
+   "ui"
+  ],
+  "jaTags": [
+   "ユーティリティ",
+   "アクセシビリティ"
   ]
  },
  {
@@ -24439,38 +24483,6 @@
   ]
  },
  {
-  "internal": "Palantir",
-  "name": "Palantir",
-  "author": "kawaii, Ice",
-  "punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
-  "description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
-  "version": "0.0.0.8",
-  "tags": [
-   "deep dungeon",
-   "palace of the dead",
-   "heaven-on-high",
-   "eureka orthos",
-   "pilgrim's traverse"
-  ],
-  "repoUrl": "https://github.com/PunishXIV/Palantir",
-  "icon": "https://puni.sh/api/plugins/icon/169",
-  "images": [],
-  "api": "15",
-  "downloads": 9398,
-  "lastUpdate": 1792016192,
-  "testing": false,
-  "applicable": "any",
-  "changelog": "- IPC from cold storage instead of hot",
-  "loadPriority": 0,
-  "sources": [
-   {
-    "repo": "https://love.puni.sh/ment.json",
-    "official": false,
-    "version": "0.0.0.8"
-   }
-  ]
- },
- {
   "internal": "Artisan",
   "name": "Artisan",
   "author": "Taurenkey, kawaii, NightmareXIV",
@@ -24485,7 +24497,7 @@
   "icon": "https://puni.sh/api/plugins/icon/6",
   "images": [],
   "api": "15",
-  "downloads": 6103829,
+  "downloads": 6103836,
   "lastUpdate": 1790362692,
   "testing": false,
   "applicable": "any",
@@ -24520,47 +24532,35 @@
   ]
  },
  {
-  "internal": "Splatoon",
-  "name": "Splatoon",
-  "author": "NightmareXIV",
-  "punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
-  "description": "Splatoon is a powerful accessibility tool. It revolutionizes gameplay with its custom waymark system, offering the ability to create unlimited grouped waymarks, labels, and actor indicators with exacting pixel precision. This feature empowers players by making crucial objects and events more visually discernible, thereby facilitating quicker reactions. However, it's important to note that the plugin does not come pre-loaded with presets. Players have the freedom to craft their own or import existing ones, offering a personalized touch to their gaming experience.",
-  "version": "3.9.2.32",
+  "internal": "Palantir",
+  "name": "Palantir",
+  "author": "kawaii, Ice",
+  "punchline": "Lost in a deep dungeon with nothing but dry bread and water?",
+  "description": "Palantir is a spiritual successor to PalacePal, the popular deep dungeon trap ESP plugin created by Liza Carvelli. It reveals the locations of previously recorded traps and Accursed Hoards from a crowdsourced database.",
+  "version": "0.0.0.8",
   "tags": [
-   "Utility",
-   "Accessibility"
+   "deep dungeon",
+   "palace of the dead",
+   "heaven-on-high",
+   "eureka orthos",
+   "pilgrim's traverse"
   ],
-  "repoUrl": "https://github.com/PunishXIV/Splatoon",
-  "icon": "https://puni.sh/api/plugins/icon/10",
+  "repoUrl": "https://github.com/PunishXIV/Palantir",
+  "icon": "https://puni.sh/api/plugins/icon/169",
   "images": [],
   "api": "15",
-  "downloads": 2339040,
-  "lastUpdate": 1792020246,
+  "downloads": 9402,
+  "lastUpdate": 1792016192,
   "testing": false,
   "applicable": "any",
-  "changelog": "- Bugfixes. May introduce new bugs though.",
+  "changelog": "- IPC from cold storage instead of hot",
   "loadPriority": 0,
   "sources": [
    {
     "repo": "https://love.puni.sh/ment.json",
     "official": false,
-    "version": "3.9.2.32"
-   },
-   {
-    "repo": "https://raw.githubusercontent.com/ryon5541/dalamud-repo-up/main/ffxiv_custom_repo.json",
-    "official": false,
-    "version": "3.4.1.3"
+    "version": "0.0.0.8"
    }
-  ],
-  "jaSummary": "スクリプトで任意の図形やマーカーを画面に描画するオーバーレイエンジン。",
-  "jaFeatures": "・グループ化された無制限のウェイマークとラベルをピクセル精度で配置\n・アクター（敵・PC）に追従するインジケーターの描画\n・プリセットは同梱されておらず、自分で作るか他者のプリセットを読み込む\n・重要なオブジェクトやイベントを視覚的に判別しやすくするアクセシビリティツールと位置づけられている\n・PalacePal など他プラグインの描画基盤としても使われる",
-  "categories": [
-   "raid",
-   "ui"
-  ],
-  "jaTags": [
-   "ユーティリティ",
-   "アクセシビリティ"
   ]
  },
  {
@@ -25095,7 +25095,7 @@
   "icon": "https://puni.sh/api/plugins/icon/34",
   "images": [],
   "api": "15",
-  "downloads": 1016402,
+  "downloads": 1016464,
   "lastUpdate": 1792408419,
   "testing": false,
   "applicable": "any",
@@ -25153,7 +25153,7 @@
   "icon": "https://puni.sh/api/plugins/icon/136",
   "images": [],
   "api": "15",
-  "downloads": 45387,
+  "downloads": 45388,
   "lastUpdate": 1791548311,
   "testing": false,
   "applicable": "any",
@@ -25568,7 +25568,7 @@
    "https://s3.puni.sh/media/plugin/30/image-3nufuhgwbhl.png"
   ],
   "api": "15",
-  "downloads": 2685866,
+  "downloads": 2685884,
   "lastUpdate": 1792174004,
   "testing": false,
   "applicable": "any",
@@ -25674,7 +25674,7 @@
   "icon": "https://puni.sh/api/plugins/icon/41",
   "images": [],
   "api": "15",
-  "downloads": 67463,
+  "downloads": 67464,
   "lastUpdate": 1791755090,
   "testing": false,
   "applicable": "any",
@@ -25727,7 +25727,7 @@
   "icon": "https://puni.sh/api/plugins/icon/48",
   "images": [],
   "api": "15",
-  "downloads": 1911779,
+  "downloads": 1911780,
   "lastUpdate": 1787843275,
   "testing": false,
   "applicable": "any",
@@ -27791,7 +27791,7 @@
    "https://s3.puni.sh/media/plugin/53/image-lfoiry0hm9.png"
   ],
   "api": "9",
-  "downloads": 77872,
+  "downloads": 77873,
   "lastUpdate": 0,
   "testing": false,
   "applicable": "any",
@@ -27945,7 +27945,7 @@
   "icon": "https://puni.sh/api/plugins/icon/64",
   "images": [],
   "api": "15",
-  "downloads": 54049,
+  "downloads": 54050,
   "lastUpdate": 1779884677,
   "testing": false,
   "applicable": "any",
@@ -27999,7 +27999,7 @@
   "icon": "https://puni.sh/api/plugins/icon/68",
   "images": [],
   "api": "15",
-  "downloads": 107995,
+  "downloads": 107996,
   "lastUpdate": 1777774705,
   "testing": false,
   "applicable": "any",
@@ -28089,7 +28089,7 @@
    "https://s3.puni.sh/media/plugin/70/image-tnps9neyhx.png"
   ],
   "api": "15",
-  "downloads": 1294843,
+  "downloads": 1294928,
   "lastUpdate": 1792375275,
   "testing": false,
   "applicable": "any",
@@ -28265,7 +28265,7 @@
    "https://s3.puni.sh/media/plugin/54/image-5lu04i95hz8.png"
   ],
   "api": "15",
-  "downloads": 2281004,
+  "downloads": 2281076,
   "lastUpdate": 1792369054,
   "testing": false,
   "applicable": "any",
@@ -28376,7 +28376,7 @@
    "https://s3.puni.sh/media/plugin/135/image-o2i6wu08hz.png"
   ],
   "api": "15",
-  "downloads": 5534,
+  "downloads": 5535,
   "lastUpdate": 1792268318,
   "testing": false,
   "applicable": "any",
@@ -29269,6 +29269,64 @@
   ]
  },
  {
+  "internal": "Chocoholic",
+  "name": "Chocoholic",
+  "author": "kawaii",
+  "punchline": "Kweh!",
+  "description": "Chocoholic is a plugin to automatically queue for and complete Chocobo races in FFXIV.",
+  "version": "0.0.0.3",
+  "tags": [
+   "chocobo",
+   "gold saucer",
+   "race",
+   "mgp"
+  ],
+  "repoUrl": "https://github.com/kawaii/Chocoholic",
+  "icon": "https://puni.sh/api/plugins/icon/116",
+  "images": [],
+  "api": "15",
+  "downloads": 6282,
+  "lastUpdate": 1778089832,
+  "testing": false,
+  "applicable": "any",
+  "changelog": "Update for Dalamud API 15 and 2026.04.21.0000.0000.",
+  "loadPriority": 0,
+  "sources": [
+   {
+    "repo": "https://puni.sh/api/repository/kawaii",
+    "official": false,
+    "version": "0.0.0.3"
+   }
+  ],
+  "jaSummary": "チョコボレースへのエントリーと完走を自動化する。",
+  "jaFeatures": "・レースに自動でキューし、自動で走り切る\n・MGP稼ぎ用",
+  "categories": [
+   "gs",
+   "auto"
+  ],
+  "jaTags": [
+   "チョコボ",
+   "ゴールドソーサー",
+   "レース",
+   "MGP"
+  ],
+  "manus": {
+   "src": "unofficial",
+   "checked": "2026-08-15",
+   "pop": {
+    "n": 2,
+    "label": "一定の利用",
+    "dl": 5104,
+    "from": "Puni.sh表示のダウンロード数"
+   },
+   "ins": 1,
+   "risk": {
+    "level": "要確認",
+    "note": "非公式プラグインのため、公式一覧と同じサポートや安全性が保証されるとは限りません。作者、権限、外部通信、更新日を確認してください。"
+   }
+  }
+ },
+ {
   "internal": "Hyperborea",
   "name": "Hyperborea",
   "author": "kawaii, NightmareXIV",
@@ -29284,7 +29342,7 @@
    "https://s3.puni.sh/media/plugin/45/image-qh8re4eb0f.png"
   ],
   "api": "15",
-  "downloads": 49681,
+  "downloads": 49682,
   "lastUpdate": 1787504034,
   "testing": false,
   "applicable": "any",
@@ -29358,64 +29416,6 @@
   }
  },
  {
-  "internal": "Chocoholic",
-  "name": "Chocoholic",
-  "author": "kawaii",
-  "punchline": "Kweh!",
-  "description": "Chocoholic is a plugin to automatically queue for and complete Chocobo races in FFXIV.",
-  "version": "0.0.0.3",
-  "tags": [
-   "chocobo",
-   "gold saucer",
-   "race",
-   "mgp"
-  ],
-  "repoUrl": "https://github.com/kawaii/Chocoholic",
-  "icon": "https://puni.sh/api/plugins/icon/116",
-  "images": [],
-  "api": "15",
-  "downloads": 6281,
-  "lastUpdate": 1778089832,
-  "testing": false,
-  "applicable": "any",
-  "changelog": "Update for Dalamud API 15 and 2026.04.21.0000.0000.",
-  "loadPriority": 0,
-  "sources": [
-   {
-    "repo": "https://puni.sh/api/repository/kawaii",
-    "official": false,
-    "version": "0.0.0.3"
-   }
-  ],
-  "jaSummary": "チョコボレースへのエントリーと完走を自動化する。",
-  "jaFeatures": "・レースに自動でキューし、自動で走り切る\n・MGP稼ぎ用",
-  "categories": [
-   "gs",
-   "auto"
-  ],
-  "jaTags": [
-   "チョコボ",
-   "ゴールドソーサー",
-   "レース",
-   "MGP"
-  ],
-  "manus": {
-   "src": "unofficial",
-   "checked": "2026-08-15",
-   "pop": {
-    "n": 2,
-    "label": "一定の利用",
-    "dl": 5104,
-    "from": "Puni.sh表示のダウンロード数"
-   },
-   "ins": 1,
-   "risk": {
-    "level": "要確認",
-    "note": "非公式プラグインのため、公式一覧と同じサポートや安全性が保証されるとは限りません。作者、権限、外部通信、更新日を確認してください。"
-   }
-  }
- },
- {
   "internal": "Dropbox",
   "name": "Dropbox",
   "author": "kawaii",
@@ -29427,7 +29427,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 50253,
+  "downloads": 50254,
   "lastUpdate": 1783980806,
   "testing": false,
   "applicable": "any",
@@ -29475,7 +29475,7 @@
   "icon": "https://puni.sh/api/plugins/icon/85",
   "images": [],
   "api": "15",
-  "downloads": 222114,
+  "downloads": 222115,
   "lastUpdate": 1791449231,
   "testing": false,
   "applicable": "any",
@@ -29550,7 +29550,7 @@
   "icon": "https://puni.sh/api/plugins/icon/173",
   "images": [],
   "api": "15",
-  "downloads": 5570,
+  "downloads": 5571,
   "lastUpdate": 1791577865,
   "testing": false,
   "applicable": "any",
@@ -30343,7 +30343,7 @@
   "icon": "https://puni.sh/api/plugins/icon/79",
   "images": [],
   "api": "15",
-  "downloads": 18923,
+  "downloads": 18924,
   "lastUpdate": 1777864065,
   "testing": false,
   "applicable": "any",
@@ -30396,7 +30396,7 @@
   "icon": "https://puni.sh/api/plugins/icon/80",
   "images": [],
   "api": "15",
-  "downloads": 4919,
+  "downloads": 4921,
   "lastUpdate": 1777603212,
   "testing": false,
   "applicable": "any",
@@ -30448,7 +30448,7 @@
   "icon": "https://puni.sh/api/plugins/icon/81",
   "images": [],
   "api": "14",
-  "downloads": 472,
+  "downloads": 473,
   "lastUpdate": 1768047503,
   "testing": false,
   "applicable": "any",
@@ -30554,7 +30554,7 @@
   "icon": "https://puni.sh/api/plugins/icon/98",
   "images": [],
   "api": "15",
-  "downloads": 38160,
+  "downloads": 38161,
   "lastUpdate": 1777759856,
   "testing": false,
   "applicable": "any",
@@ -30765,7 +30765,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 328,
+  "downloads": 329,
   "lastUpdate": 1785334785,
   "testing": true,
   "applicable": "any",
@@ -30811,7 +30811,7 @@
    "https://s3.puni.sh/media/plugin/160/image-a22gg0mb0um.png"
   ],
   "api": "15",
-  "downloads": 12662,
+  "downloads": 12663,
   "lastUpdate": 1790723100,
   "testing": false,
   "applicable": "any",
@@ -30916,7 +30916,7 @@
   "icon": "https://puni.sh/api/plugins/icon/161",
   "images": [],
   "api": "15",
-  "downloads": 356,
+  "downloads": 357,
   "lastUpdate": 1782971187,
   "testing": false,
   "applicable": "any",
@@ -31002,7 +31002,7 @@
   "icon": "https://puni.sh/api/plugins/icon/162",
   "images": [],
   "api": "15",
-  "downloads": 1885,
+  "downloads": 1886,
   "lastUpdate": 1787615360,
   "testing": false,
   "applicable": "any",
@@ -31093,7 +31093,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 811,
+  "downloads": 812,
   "lastUpdate": 1787140849,
   "testing": false,
   "applicable": "any",
@@ -31178,7 +31178,7 @@
   "icon": "https://puni.sh/api/plugins/icon/154",
   "images": [],
   "api": "15",
-  "downloads": 143054,
+  "downloads": 143056,
   "lastUpdate": 1789751350,
   "testing": false,
   "applicable": "any",
@@ -31266,7 +31266,7 @@
   "icon": "https://puni.sh/api/plugins/icon/133",
   "images": [],
   "api": "15",
-  "downloads": 680,
+  "downloads": 681,
   "lastUpdate": 1783714139,
   "testing": false,
   "applicable": "any",
@@ -31447,7 +31447,7 @@
    "https://s3.puni.sh/media/plugin/63/image-w9qpjb1phr.png"
   ],
   "api": "15",
-  "downloads": 1171,
+  "downloads": 1172,
   "lastUpdate": 1777663581,
   "testing": false,
   "applicable": "any",
@@ -31668,7 +31668,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 962,
+  "downloads": 963,
   "lastUpdate": 1785017411,
   "testing": false,
   "applicable": "any",
@@ -31755,7 +31755,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 594,
+  "downloads": 595,
   "lastUpdate": 1778548030,
   "testing": false,
   "applicable": "any",
@@ -31808,7 +31808,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 180,
+  "downloads": 181,
   "lastUpdate": 1792352521,
   "testing": false,
   "applicable": "any",
@@ -31850,7 +31850,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 1057,
+  "downloads": 1058,
   "lastUpdate": 1789231486,
   "testing": false,
   "applicable": "any",
@@ -31889,7 +31889,7 @@
   "icon": "https://puni.sh/api/plugins/icon/180",
   "images": [],
   "api": "15",
-  "downloads": 1886,
+  "downloads": 1888,
   "lastUpdate": 1792360336,
   "testing": false,
   "applicable": "any",
@@ -31949,7 +31949,7 @@
   "icon": "https://puni.sh/api/plugins/icon/140",
   "images": [],
   "api": "15",
-  "downloads": 300,
+  "downloads": 301,
   "lastUpdate": 1791387880,
   "testing": false,
   "applicable": "any",
@@ -32095,7 +32095,7 @@
   "icon": "https://puni.sh/api/plugins/icon/142",
   "images": [],
   "api": "15",
-  "downloads": 444,
+  "downloads": 445,
   "lastUpdate": 1790717830,
   "testing": false,
   "applicable": "any",
@@ -32326,7 +32326,7 @@
   "icon": "https://puni.sh/api/plugins/icon/143",
   "images": [],
   "api": "15",
-  "downloads": 8955,
+  "downloads": 8957,
   "lastUpdate": 1792334179,
   "testing": false,
   "applicable": "any",
@@ -32418,7 +32418,7 @@
   "icon": "https://puni.sh/api/plugins/icon/150",
   "images": [],
   "api": "15",
-  "downloads": 718,
+  "downloads": 719,
   "lastUpdate": 1783794671,
   "testing": false,
   "applicable": "any",
@@ -32510,7 +32510,7 @@
   "icon": "",
   "images": [],
   "api": "15",
-  "downloads": 8017,
+  "downloads": 8018,
   "lastUpdate": 1777883909,
   "testing": false,
   "applicable": "any",
@@ -32603,7 +32603,7 @@
   "icon": "https://puni.sh/api/plugins/icon/148",
   "images": [],
   "api": "15",
-  "downloads": 2659,
+  "downloads": 2660,
   "lastUpdate": 1787390610,
   "testing": false,
   "applicable": "any",
@@ -32704,7 +32704,7 @@
   "icon": "https://puni.sh/api/plugins/icon/149",
   "images": [],
   "api": "15",
-  "downloads": 3280,
+  "downloads": 3281,
   "lastUpdate": 1790863091,
   "testing": false,
   "applicable": "any",
@@ -33093,7 +33093,7 @@
   "icon": "https://puni.sh/api/plugins/icon/121",
   "images": [],
   "api": "15",
-  "downloads": 296,
+  "downloads": 297,
   "lastUpdate": 1778900353,
   "testing": false,
   "applicable": "any",
@@ -33189,7 +33189,7 @@
   "icon": "https://puni.sh/api/plugins/icon/123",
   "images": [],
   "api": "15",
-  "downloads": 355,
+  "downloads": 356,
   "lastUpdate": 1780417356,
   "testing": false,
   "applicable": "any",
@@ -33285,7 +33285,7 @@
    "https://s3.puni.sh/media/plugin/129/image-f40fot6m5jm.png"
   ],
   "api": "15",
-  "downloads": 1005,
+  "downloads": 1007,
   "lastUpdate": 1791940244,
   "testing": false,
   "applicable": "any",
@@ -33386,7 +33386,7 @@
   "icon": "https://puni.sh/api/plugins/icon/179",
   "images": [],
   "api": "15",
-  "downloads": 169,
+  "downloads": 171,
   "lastUpdate": 1790295491,
   "testing": false,
   "applicable": "any",
@@ -33418,7 +33418,7 @@
    "https://s3.puni.sh/media/plugin/118/image-ydfv2p5hx9s.png"
   ],
   "api": "15",
-  "downloads": 3041,
+  "downloads": 3042,
   "lastUpdate": 1791514267,
   "testing": false,
   "applicable": "any",
@@ -33727,7 +33727,7 @@
    "https://s3.puni.sh/media/plugin/120/image-zigc0q28b1m.png"
   ],
   "api": "15",
-  "downloads": 1342,
+  "downloads": 1343,
   "lastUpdate": 1781761294,
   "testing": false,
   "applicable": "any",
@@ -33817,7 +33817,7 @@
   "icon": "https://puni.sh/api/plugins/icon/153",
   "images": [],
   "api": "15",
-  "downloads": 1125,
+  "downloads": 1126,
   "lastUpdate": 1786650805,
   "testing": true,
   "applicable": "any",
@@ -33935,7 +33935,7 @@
    "https://s3.puni.sh/media/plugin/157/image-gqjmkrr8lmv.png"
   ],
   "api": "15",
-  "downloads": 288,
+  "downloads": 289,
   "lastUpdate": 1787470901,
   "testing": false,
   "applicable": "any",
@@ -34052,7 +34052,7 @@
    "https://s3.puni.sh/media/plugin/158/image-jjwxizqmeyn.png"
   ],
   "api": "15",
-  "downloads": 795,
+  "downloads": 796,
   "lastUpdate": 1790868119,
   "testing": false,
   "applicable": "any",
@@ -34183,7 +34183,7 @@
    "https://s3.puni.sh/media/plugin/163/image-eg915zn196.png"
   ],
   "api": "15",
-  "downloads": 508,
+  "downloads": 509,
   "lastUpdate": 1790343418,
   "testing": false,
   "applicable": "any",
@@ -34300,7 +34300,7 @@
   "icon": "https://puni.sh/api/plugins/icon/102",
   "images": [],
   "api": "15",
-  "downloads": 1083,
+  "downloads": 1084,
   "lastUpdate": 1777745911,
   "testing": false,
   "applicable": "any",
@@ -34392,7 +34392,7 @@
   "icon": "https://puni.sh/api/plugins/icon/72",
   "images": [],
   "api": "15",
-  "downloads": 469,
+  "downloads": 470,
   "lastUpdate": 1777571150,
   "testing": false,
   "applicable": "any",
@@ -34463,7 +34463,7 @@
   "icon": "https://puni.sh/api/plugins/icon/164",
   "images": [],
   "api": "15",
-  "downloads": 285,
+  "downloads": 286,
   "lastUpdate": 1785366664,
   "testing": false,
   "applicable": "any",
@@ -34688,7 +34688,7 @@
   "icon": "https://puni.sh/api/plugins/icon/117",
   "images": [],
   "api": "14",
-  "downloads": 142,
+  "downloads": 143,
   "lastUpdate": 1772289558,
   "testing": false,
   "applicable": "any",
